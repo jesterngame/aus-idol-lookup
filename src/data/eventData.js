@@ -9,7 +9,7 @@ export const eventsArray = [
         type: "live",
         city: "Brisbane/Meanjin",
         address: "Not yet known",
-        description: `<p>An event being put on by Snacktime</p>`,
+        description: `An event being put on by Snacktime`,
         img: temp_event_show,
         ticketlink: "",
         groups: [{ id: 2, mtime: "", btime: "" }],
