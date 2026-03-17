@@ -46,6 +46,13 @@ function App() {
       resetScroll();
     }
 
+    const updatePageCalendar = () => {
+      SetPage("Calendar");
+      SetGroup(0);
+      SetEvent(0);
+      resetScroll();
+    }
+
     return(
       <div className="site-container">
         <div>
@@ -55,6 +62,10 @@ function App() {
             <div className="nav-button" onClick={updatePageEvents}>
               <i className="fa-solid fa-ticket"></i>
               <label>Events</label>
+            </div>
+            <div className="nav-button" onClick={updatePageCalendar}>
+              <i className="fa-solid fa-calendar"></i>
+              <label>Calendar</label>
             </div>
             <div className="nav-button" onClick={updatePageGroup}>
               <i className="fa-solid fa-music"></i>

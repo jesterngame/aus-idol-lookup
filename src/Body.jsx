@@ -3,6 +3,7 @@ import Idolgroup from './Idolgroup.jsx'
 import IdolGroupPage from './IdolGroupPage.jsx'
 import EventList from './EventList.jsx'
 import EventPage from './EventPage.jsx'
+import Calendar from './EventCalendar.jsx'
 import { idolsArray } from './data/idolData.js'
 import { idolGroupsArray } from './data/idolGroupData.js'
 import { eventsArray } from './data/eventData.js'
@@ -39,6 +40,11 @@ function Body(props){
         const filteredIdolMembers = idolsArray.filter(idol => idol.group.includes(props.groupid));
         const filteredEvents = eventsArray.filter(events=>events.groups.some(g => g.id === props.groupid));
         return <IdolGroupPage group={filteredGroup} members={filteredIdolMembers} events={filteredEvents}/>;
+    }
+
+    if (props.page === "Calendar") {
+
+        return <Calendar events={eventsArray} />;
     }
 
     return null;
