@@ -415,3 +415,8 @@ body {
   padding: 12px;
   border-radius: 10%;
 }
+
+.shareQr {
+  height: auto;
+  width: -webkit-fill-available;
+}

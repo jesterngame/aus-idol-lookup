@@ -53,6 +53,13 @@ function App() {
       resetScroll();
     }
 
+    const updatePageShare = () => {
+      SetPage("Share");
+      SetGroup(0);
+      SetEvent(0);
+      resetScroll();
+    }
+
     return(
       <div className="site-container">
         <div>
@@ -70,6 +77,10 @@ function App() {
             <div className="nav-button" onClick={updatePageGroup}>
               <i className="fa-solid fa-music"></i>
               <label>Groups</label>
+            </div>
+            <div className="nav-button" onClick={updatePageShare}>
+              <i className="fa-solid fa-share"></i>
+              <label>Share</label>
             </div>
         </div>
         <div className="main-body">

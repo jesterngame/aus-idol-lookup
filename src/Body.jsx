@@ -4,6 +4,7 @@ import IdolGroupPage from './IdolGroupPage.jsx'
 import EventList from './EventList.jsx'
 import EventPage from './EventPage.jsx'
 import Calendar from './EventCalendar.jsx'
+import SharePage from './SharePage.jsx'
 import { idolsArray } from './data/idolData.js'
 import { idolGroupsArray } from './data/idolGroupData.js'
 import { eventsArray } from './data/eventData.js'
@@ -45,6 +46,10 @@ function Body(props){
     if (props.page === "Calendar") {
 
         return <Calendar events={eventsArray} />;
+    }
+
+    if (props.page === "Share") {
+        return <SharePage />;
     }
 
     return null;
