@@ -83,9 +83,9 @@ const Calendar = ({ events = [] }) => {
             >
                 <div className="date-number">{format(dayClone, "d")}</div>
 
-                <div className="events">
+                <div className="calEvents">
                 {dayEvents.map(event => (
-                    <div key={event.id} className="event" onClick={() => updatePageEventSingle(event.id)}>
+                    <div key={event.id} className="calEvent" onClick={() => updatePageEventSingle(event.id)}>
                     {event.name}
                     </div>
                 ))}

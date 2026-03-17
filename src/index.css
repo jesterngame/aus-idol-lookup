@@ -327,13 +327,13 @@ body {
   margin-top: 6px;
 }
 
-.events {
+.calEvents {
   display: grid;
   flex-direction: column;
   gap: 2px;
 }
 
-.event {
+.calEvent {
   background: #f9f9f9;
   color: black;
   font-size: 10px;
