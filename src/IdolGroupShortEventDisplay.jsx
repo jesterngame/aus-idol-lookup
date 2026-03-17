@@ -27,7 +27,7 @@ function IdolGroupShortEventDisplay(props){
 
     return(
         <div id={props.id} className="idol-group-card" onClick={() => updatePageGroupSolo(props.id)}>
-            <img className="idol-logo-search" src={groupPic} alt="idol logo"></img>
+            <img className="idol-logo-search" src={props.logo} alt="idol logo"></img>
             <div className="idolgroup-info">
                 <strong>{props.name}</strong>
                 <p><i className="fa-solid fa-music"></i> {timeM}</p>

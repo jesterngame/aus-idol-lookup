@@ -28,7 +28,7 @@ function EventPage(props){
         const eventTimes = eventData.groups.find(item => item.id === group.id);
 
         return (
-        <SwiperSlide key={group.id}><IdolGroupShortEventDisplay key={group.id} id={group.id} name={group.name} location={group.location} mtime={eventTimes.mtime} btime={eventTimes.btime}/></SwiperSlide>
+        <SwiperSlide key={group.id}><IdolGroupShortEventDisplay key={group.id} id={group.id} name={group.name} location={group.location} logo={group.logo} mtime={eventTimes.mtime} btime={eventTimes.btime}/></SwiperSlide>
         )
     });
 
@@ -65,7 +65,7 @@ function EventPage(props){
 
             <div className="column right">
                 <h2>About</h2>
-                <p>{eventData.description}</p>
+                <p style={{ whiteSpace: "pre-line" }}>{eventData.description}</p>
 
                 <p><a href={eventData.ticketlink} target="_blank"> <i className="fa-solid fa-ticket large-social"></i></a></p>
             </div>

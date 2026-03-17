@@ -27,7 +27,7 @@ function IdolGroupPage(props){
     return(
         <div className="group-page-container">
             <div className="column left">
-                <img className="idol-logo" src={groupPic} alt="idol logo"></img>
+                <img className="idol-logo" src={groupData.logo} alt="idol logo"></img>
                 <h1>{groupData.name}</h1>
                     <div>Location: {groupData.location} Genre: {groupData.genre}</div><br/>
                 <div className="group-socials">
