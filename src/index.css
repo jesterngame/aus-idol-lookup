@@ -39,11 +39,11 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
   padding: 20px;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
-  max-width: 140px;
+  max-width: 200px;
+  height: 160px;
   display: inline-block;
-  width: 200px;
 }
 
 .idol-member h3{
@@ -150,6 +150,7 @@ body {
 .event-img-search {
   height: 100px;
   width: auto;
+  border-radius: 10px;
 }
 
 .event-card-short {
@@ -186,7 +187,7 @@ body {
 }
 
 .event-group-image{
-  width: 160px;
+  width: 100px;
   height: 100px;
   overflow: hidden;
 }
@@ -446,4 +447,55 @@ body {
   border-radius: 12px;
   border: none;
   padding: 2px 12px;
+}
+
+.event-group-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  max-width: 130px;
+  height: 200px;
+  display: inline-block;
+  width: 103px
+}
+
+.idolgroup-info strong{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.image-veiwer {
+  position: relative;
+  z-index: 6;
+}
+
+.image-veiwer img{
+  height: 100%;
+  width: 100%;
+}
+
+.image-veiwer-closer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  color: white;
+  background-color: #0000006c;
+  border: none;
+  z-index: 7;
+}
+
+.eventTicket {
+  text-decoration: 'none';
+  color: black;
+  font-size: 4em;
 }

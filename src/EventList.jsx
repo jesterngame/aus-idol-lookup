@@ -14,8 +14,6 @@ function EventList(props){
     const eventList = props.events;
 
     const now = new Date();
-    const currentMonth = now.getMonth();   // 0–11
-    const currentYear = now.getFullYear();
 
     const oneMonthFromNow = new Date();
       oneMonthFromNow.setMonth(oneMonthFromNow.getMonth() + 1);

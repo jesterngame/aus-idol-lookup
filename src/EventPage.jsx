@@ -1,3 +1,5 @@
+"use client";
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import IdolGroupShortEventDisplay from './IdolGroupShortEventDisplay.jsx'
 import "swiper/css";
@@ -5,6 +7,7 @@ import 'swiper/css/free-mode';
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import { Navigation, FreeMode, Pagination } from 'swiper/modules';
+import { useRef } from 'react';
 
 function formatDate(date){
   const d = new Date(date)
@@ -32,10 +35,30 @@ function EventPage(props){
         )
     });
 
+    const dialogRef = useRef();
+
+    const eventPosterImg = new Image();
+    eventPosterImg.src = eventData.img;
+
     return(
         <div className="group-page-container">
+            <dialog ref={dialogRef} className="image-veiwer">
+                <div 
+                    style={{
+                        aspectRatio: `${eventPosterImg.naturalWidth} / ${eventPosterImg.naturalHeight}`,
+                        maxWidth: "90vw",
+                        maxHeight: "90vh"
+                    }}
+                >
+                    <img src={eventData.img} alt="Event Poster" />
+                </div>
+                <button className="image-veiwer-closer" onClick={() => dialogRef.current?.close()}>
+                    <i className="fa-solid fa-x"></i>
+                    <span className="sr-only">Close</span>
+                </button>
+            </dialog>
             <div className="column left">
-                <div className="event-header">
+                <div className="event-header" onClick={() => dialogRef.current?.showModal()}>
                     <img src={eventData.img} alt="Event Poster" />
                 </div>
                 <h2>{eventData.name}</h2>
@@ -67,7 +90,7 @@ function EventPage(props){
                 <h2>About</h2>
                 <p style={{ whiteSpace: "pre-line" }}>{eventData.description}</p>
 
-                <p><a href={eventData.ticketlink} target="_blank"> <i className="fa-solid fa-ticket large-social"></i></a></p>
+                <p><a href={eventData.ticketlink} target="_blank" className="eventTicket"> <i className="fa-solid fa-ticket large-social"></i></a></p>
             </div>
         </div>
     );

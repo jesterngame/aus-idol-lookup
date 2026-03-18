@@ -20,8 +20,23 @@ function IdolGroupPage(props){
     const socialsList = groupData.socials;
     const listSocials = socialsList.map(social => <Socials key={social.type} type={social.type} link={social.link}/>);
 
-    const eventData = props.events;
+    const now = new Date();
+
+    const eventData = props.events.filter(event => {
+        const d = event.date;
+        return (
+            d  >= now
+        );
+    });
     const listEvents = eventData.map(event => <SwiperSlide key={event.id}><EventShortCardGroup key={event.id} id={event.id} name={event.name} img={event.img} date={event.date} city={event.city} type={event.type} /></SwiperSlide>);
+
+    const eventDataPast = props.events.filter(event => {
+        const d = event.date;
+        return (
+            d  < now
+        );
+    });
+    const listEventsPast = eventDataPast.map(event => <SwiperSlide key={event.id}><EventShortCardGroup key={event.id} id={event.id} name={event.name} img={event.img} date={event.date} city={event.city} type={event.type} /></SwiperSlide>);
 
 
     return(
@@ -67,6 +82,22 @@ function IdolGroupPage(props){
                         className="mySwiper"
                     >
                         {listMembers}
+                    </Swiper>
+                </div>
+
+                <div className="event">
+                    <h2>Past Events</h2>
+                    <Swiper
+                        slidesPerView={2}
+                        spaceBetween={30}
+                        freeMode={true}
+                        pagination={{
+                        clickable: true,
+                        }}
+                        modules={[FreeMode, Pagination]}
+                        className="mySwiper"
+                    >
+                        {listEventsPast}
                     </Swiper>
                 </div>
 
