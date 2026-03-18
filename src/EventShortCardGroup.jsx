@@ -16,7 +16,7 @@ function EventShortCardGroup(props){
     let eventDatePhrased = formatDate(eventDate);
     //onClick={() => updatePageEventSingle(props.id)}
     return(
-        <NavLink to={`/aus-idol-lookup/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <NavLink to={`/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div id={props.id} className="event-group-card" >
                 <div className="event-group-image">
                     <img src={props.img} alt="Event Poster" />

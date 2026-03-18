@@ -82,7 +82,7 @@ function App() {
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
         </div>
         <div className="nav-bar">
-            <NavLink to="/aus-idol-lookup">
+            <NavLink to="/">
               <div className="nav-button" onClick={updatePageEvents}>
                 <i className="fa-solid fa-ticket"></i>
                 <label>Events</label>

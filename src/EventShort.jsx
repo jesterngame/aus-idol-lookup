@@ -18,7 +18,7 @@ function EventShort(props){
 
     // onClick={() => updatePageEventSingle(props.id)}
     return( 
-        <NavLink to={`/aus-idol-lookup/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <NavLink to={`/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="event-card-short">
                 <div className="event-poster-container">
                     <img className="event-img-search" src={props.img} alt="Event Poster" />

@@ -42,8 +42,9 @@ body {
   margin: 5px;
   text-align: center;
   max-width: 200px;
-  height: 200px;
+  height: 240px;
   display: inline-block;
+  overflow-wrap: anywhere;
 }
 
 .idol-member h3{
@@ -70,8 +71,9 @@ body {
   margin: 5px;
   text-align: center;
   max-width: 200px;
-  height: 160px;
+  height: 180px;
   display: inline-block;
+  overflow-wrap: anywhere;
 }
 
 
@@ -457,9 +459,10 @@ body {
   margin: 5px;
   text-align: center;
   max-width: 130px;
-  height: 200px;
+  height: 220px;
   display: inline-block;
-  width: 103px
+  width: 103px;
+  overflow-wrap: anywhere;
 }
 
 .idolgroup-info strong{

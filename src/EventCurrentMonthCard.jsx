@@ -17,7 +17,7 @@ function EventCurrentMonthCard(props){
 
     // onClick={() => updatePageEventSingle(props.id)} 
     return( 
-        <NavLink to={`/aus-idol-lookup/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <NavLink to={`/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div 
                 className="event-poster-full-card" 
                 style={{

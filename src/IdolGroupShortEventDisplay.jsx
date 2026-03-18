@@ -23,7 +23,7 @@ function IdolGroupShortEventDisplay(props){
     }
 
     return(
-        <NavLink to={`/aus-idol-lookup/group/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <NavLink to={`/group/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div id={props.id} className="idol-group-card" >
                 <img className="idol-logo-search" src={props.logo} alt="idol logo"></img>
                 <div className="idolgroup-info">

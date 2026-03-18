@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import BodyEvent from './BodyEvent.jsx'
 import BodyGroup from './BodyGroup.jsx'
 import GroupPage from './GroupPage.jsx'
@@ -10,13 +10,13 @@ import BodyCalendar from './BodyCalendar.jsx'
 import BodyEventSingle from './BodyEventSingle.jsx'
 import SharePage from './SharePage.jsx'
 
-const router = createBrowserRouter([
-  {path:"aus-idol-lookup", element:<BodyEvent /> },
-  {path:"aus-idol-lookup/calendar", element:<BodyCalendar />},
-  {path:"aus-idol-lookup/group", element:<BodyGroup />},
-  {path:"aus-idol-lookup/group/:groupid", element:<GroupPage />},
-  {path:"aus-idol-lookup/event/:eventid", element:<BodyEventSingle />},
-  {path:"aus-idol-lookup/share", element:<SharePage />}
+const router = createHashRouter([
+  {path:"", element:<BodyEvent /> },
+  {path:"/calendar", element:<BodyCalendar />},
+  {path:"/group", element:<BodyGroup />},
+  {path:"/group/:groupid", element:<GroupPage />},
+  {path:"/event/:eventid", element:<BodyEventSingle />},
+  {path:"/share", element:<SharePage />}
 ]);
 
 
