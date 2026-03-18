@@ -61,6 +61,7 @@ function Idol(props){
         <div id={props.id} className="idol-member">
             <img className="circle-img" src={profilePic} alt="Profile Picture" style={memberImageStyle}></img>
             <h3>{props.name}</h3>
+            <p>{props.type}</p>
             <p>Colour: {props.colour}</p>
             <div className="individual-member-socials">
                 {listSocials}

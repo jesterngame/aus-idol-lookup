@@ -96,6 +96,20 @@ export const idolsArray = [
         ]
     },
     {
+        id: 7,
+        group: [2],
+        name: "Hina",
+        image: "imgs/temp_portrait.png",
+        idoltype: "Soda",
+        colour: "Orange",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/yueqi3366/"
+            }
+        ]
+    },
+    {
         id: 8,
         group: [3, 15],
         name: "Sunny",

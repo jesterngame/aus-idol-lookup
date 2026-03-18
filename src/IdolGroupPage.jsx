@@ -15,7 +15,7 @@ function IdolGroupPage(props){
     
 
     const memberData = props.members;
-    const listMembers = memberData.map(idol => <SwiperSlide key={idol.id}><Idol key={idol.id} id={idol.id} name={idol.name} colour={idol.colour} socials={idol.socials}/></SwiperSlide>);
+    const listMembers = memberData.map(idol => <SwiperSlide key={idol.id}><Idol key={idol.id} id={idol.id} name={idol.name} type={idol.type} colour={idol.colour} socials={idol.socials}/></SwiperSlide>);
 
     const socialsList = groupData.socials;
     const listSocials = socialsList.map(social => <Socials key={social.type} type={social.type} link={social.link}/>);
