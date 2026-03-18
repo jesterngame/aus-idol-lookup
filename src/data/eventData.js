@@ -125,7 +125,10 @@ export const eventsArray = [
         no alcohol will be served*`,
         ticketlink: "https://www.4qnq.info/event-details/double-fool-gachi-of-piece-neon-lounge",
         img: event_5_poster,
-        groups: [],
+        groups: [
+            { id: 16, mtime: "", btime: "" },
+            { id: 14, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 2, 22)
     },
     {
@@ -137,7 +140,10 @@ export const eventsArray = [
         description: `Welcome one and all to Seiryou Process’s end of Sad Clown era live: Kyokuchi Pierro. Join us and supporting act Amuse Project in a unique, high-energy dark-circus themed kaigai idol live to celebrate music, creativity, and all things clown. Hold onto your sanity; our circus only has one more stop before the end of the road. Get a taste of what comes next.`,
         ticketlink: "https://piptheatre.org/%E6%A5%B5%E8%87%B4%E3%83%94%E3%82%A8%E3%83%AD-the-propro-show/",
         img: event_6_poster,
-        groups: [],
+        groups: [
+            { id: 4, mtime: "", btime: "" },
+            { id: 5, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 3, 4)
     },
     {
@@ -149,7 +155,9 @@ export const eventsArray = [
         description: `AniMayhem is Brisbane’s newest anime and pop culture convention, debuting in May 2026. Set to attract thousands of anime lovers, cosplayers, collectors, and pop culture fans. This immersive two-day event offers a platform for brands to engage directly with Australia’s vibrant otaku community.`,
         ticketlink: "https://expertiseevents.eventsair.com/animayhem-2026/animayhemtix26/Site/Register",
         img: event_7_poster,
-        groups: [],
+        groups: [
+            { id: 5, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 4, 2)
     },
     {
@@ -161,7 +169,9 @@ export const eventsArray = [
         description: ``,
         ticketlink: "",
         img: temp_event_show,
-        groups: [],
+        groups: [
+            { id: 17, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 4, 2)
     },
     {
@@ -173,7 +183,9 @@ export const eventsArray = [
         description: `AniMayhem is Brisbane’s newest anime and pop culture convention, debuting in May 2026. Set to attract thousands of anime lovers, cosplayers, collectors, and pop culture fans. This immersive two-day event offers a platform for brands to engage directly with Australia’s vibrant otaku community.`,
         ticketlink: "https://expertiseevents.eventsair.com/animayhem-2026/animayhemtix26/Site/Register",
         img: event_7_poster,
-        groups: [],
+        groups: [
+            { id: 5, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 4, 3)
     },
     {
@@ -200,7 +212,12 @@ export const eventsArray = [
         and a debut performance by Unmei`,
         ticketlink: "https://www.eventbrite.com.au/e/shiro-stage-idol-taiban-tickets-1982266809388",
         img: event_10_poster,
-        groups: [],
+        groups: [
+            { id: 21, mtime: "", btime: "" },
+            { id: 23, mtime: "", btime: "" },
+            { id: 24, mtime: "", btime: "" },
+            { id: 20, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 2, 22)
     },
     {
@@ -229,7 +246,10 @@ export const eventsArray = [
         **this is an event you definitely don’t want to miss!**🔥`,
         ticketlink: "https://www.eventbrite.com.au/e/anirock-fes-melbourne-tickets-1978683448459",
         img: event_11_poster,
-        groups: [],
+        groups: [
+            { id: 23, mtime: "", btime: "" },
+            { id: 22, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 2, 29)
     },
     {
@@ -247,7 +267,9 @@ export const eventsArray = [
         ⏱️ Doors open — 6PM`,
         ticketlink: "https://www.faeblefuture.com/shop/p/hyperdrive-5r2sw-8jyr3",
         img: event_12_poster,
-        groups: [],
+        groups: [
+            { id: 15, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 2, 29)
     },
     {

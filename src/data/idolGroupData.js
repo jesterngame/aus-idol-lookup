@@ -654,10 +654,6 @@ export const idolGroupsArray = [
             {
                 type: "youtube",
                 link: "https://www.youtube.com/@StarryDanceOfficial"
-            },
-            {
-                type: "website",
-                link: "https://lumeteor.square.site/"
             }
         ]
     },
@@ -682,6 +678,10 @@ export const idolGroupsArray = [
             {
                 type: "youtube",
                 link: "https://www.youtube.com/@LuMeteor_melb"
+            },
+            {
+                type: "website",
+                link: "https://lumeteor.square.site/"
             }
         ]
     },
