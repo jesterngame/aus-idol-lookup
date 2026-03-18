@@ -136,10 +136,6 @@ export const idolGroupsArray = [
                 link: "https://www.youtube.com/@SeiryouProcess"
             },
             {
-                type: "twitter",
-                link: "https://x.com/sunnyysaurus"
-            },
-            {
                 type: "patreon",
                 link: "https://www.patreon.com/cw/SeiryouProcess"
             }
