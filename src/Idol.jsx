@@ -19,6 +19,7 @@ function Idol(props){
             break; 
         case "Light Blue":
         case "Baby blue":
+        case "Sky blue":
             penlight = 'lightskyblue';
             break; 
         case "Devilish Pink":
@@ -40,6 +41,9 @@ function Idol(props){
             break;
         case "Crimson Red":
             penlight = 'red';
+            break;
+        case "Peachy orange":
+            penlight = 'orange';
             break;
         default:
             penlight = props.colour;

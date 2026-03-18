@@ -693,6 +693,49 @@ export const idolsArray = [
             }
         ]
     },
+    {
+        id: 52,
+        group:[25],
+        name: "Lily",
+        image: "",
+        idoltype: "",
+        colour: "Pink",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/softtlily"
+            }
+        ]
+    },
+    {
+        id: 53,
+        group:[25],
+        name: "Xay",
+        image: "",
+        idoltype: "",
+        colour: "Sky blue",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/xaybunni;"
+            }
+        ]
+    },
+    {
+        id: 54,
+        group:[25],
+        name: "Grace",
+        image: "",
+        idoltype: "",
+        colour: "Peachy orange",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/ellie_do.cosplay"
+            }
+        ]
+    },
+
 ];
 
 

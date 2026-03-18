@@ -29,6 +29,9 @@ function Socials(props){
         case "twitch":
             socialClass += "fa-brands fa-twitch";
             break;
+        case "ko-fi":
+            socialClass += "fa-brands fa-ko-fi"
+            break;
         default:
     }
 

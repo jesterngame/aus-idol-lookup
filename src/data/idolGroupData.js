@@ -19,6 +19,7 @@ import starrydance_logo from '../assets/logos/starrydance_logo.jpg'
 import unmei_logo from '../assets/logos/unmei_logo.jpg'
 import amuse_logo from '../assets/logos/amuse_logo.jpg'
 import seiryouprocess_logo from '../assets/logos/seiryouprocess_logo.png'
+import moemagicmaids_logo from '../assets/logos/moemagicmaids_logo.jpg'
 
 export const idolGroupsArray = [
     {
@@ -696,6 +697,42 @@ export const idolGroupsArray = [
             {
                 type: "instagram",
                 link: "https://www.instagram.com/aquatic_memories"
+            }
+        ]
+    },
+    {
+        id: 25,
+        name: "Moe Magic Maids",
+        location: "Brisbane/Meanjin",
+        logo: moemagicmaids_logo,
+        genre: "",
+        description:`Welcome Home Princesses, Masters!
+        Okaerinasaimase ojōsama ōji-sama!~
+        お帰りなさいお嬢様王子様!~
+        We are Moe Magic Maids!!
+        魔法の萌えメイド
+
+        We are starting a kickstarter to help our business to bring Japanese maid cafe culture to Australia! 🫶
+
+        What is a maid cafe? 🩵
+        A maid cafe, founded in the hearts of Akihabara Japan 2001, is an entertainment cafe where waitresses dressed in maid costumes serving, cute themed foods, live shows and doing fun interactions with customers. A fun place for all ages to enjoy and being entertained during their duration inside the cafe!
+
+        We plan to pop up to collaborate with stores in Brisbane QLD Australia and hoping to expand Australia wide and open Australias very first permanent maid cafe. But we need your help! any donations made will 100% be funded in this project. Let’s bring our hearts together, Moe Moe Kyun!!
+        Each donation will get gifts once we launch as a thank you ♡
+
+        Taken from ko-fi on 19/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/moemagicmaids"
+            },
+            {
+                type: "tiktok",
+                link: "https://www.tiktok.com/@moemagicmaids"
+            },
+            {
+                type: "ko-fi",
+                link: "https://ko-fi.com/moemagicmaids"
             }
         ]
     },

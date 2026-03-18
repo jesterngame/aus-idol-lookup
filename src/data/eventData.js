@@ -9,6 +9,7 @@ import event_11_poster from '../assets/posters/event_11_poster.jpg'
 import event_12_poster from '../assets/posters/event_12_poster.png'
 import event_13_poster from '../assets/posters/event_13_poster.jpg'
 import event_14_poster from '../assets/posters/event_14_poster.jpg'
+import event_15_poster from '../assets/posters/event_15_poster.jpg'
 
 export const eventsArray = [
     {
@@ -306,5 +307,29 @@ export const eventsArray = [
         groups: [],
         date: new Date(2026, 7, 29)
     },
+    {
+        id: 15,
+        name: "Maid with Magic Live",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "Hamilton Town Hall",
+        description: `Please join us for our first ever birthday live event with guest maids, Bloom Idol Project!! It"ll be a night full of moe & magical spells to keep the night alive~
+
+        Merch & drinks are available for purchase during the event.
+
+        Food is NOT available to be purchased during the event and only through your ticket.
+
+        Limited tickets available.
+
+        What are you waiting for?! Get your tickets now before they sell out!`,
+        ticketlink: "https://events.humanitix.com/maid-with-magic-live",
+        img: event_15_poster,
+        groups: [
+            { id: 25, mtime: "", btime: "" },
+            { id: 1, mtime: "", btime: "" }
+        ],
+        date: new Date(2026, 4, 30)
+    },
+
 
 ];
