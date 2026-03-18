@@ -11,7 +11,7 @@ import { Navigation, FreeMode, Pagination } from 'swiper/modules';
 
 function IdolGroupPage(props){
 
-    const groupData = props.group[0];
+    const groupData = props.group;
     
 
     const memberData = props.members;

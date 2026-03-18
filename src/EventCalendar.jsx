@@ -1,4 +1,4 @@
-import {PageContext} from './App.jsx';
+import { NavLink } from "react-router-dom";
 import React, { useState, useContext } from "react";
 import {
   format,
@@ -15,7 +15,7 @@ import {
 
 const Calendar = ({ events = [] }) => {
 
-    const {updatePageEventSingle} = useContext(PageContext);
+    // const {updatePageEventSingle} = useContext(PageContext);
 
     const [currentDate, setCurrentDate] = useState(new Date());
 
@@ -84,10 +84,13 @@ const Calendar = ({ events = [] }) => {
                 <div className="date-number">{format(dayClone, "d")}</div>
 
                 <div className="calEvents">
+                    {/* updatePageEventSingle(event.id) */}
                 {dayEvents.map(event => (
-                    <div key={event.id} className="calEvent" onClick={() => updatePageEventSingle(event.id)}>
-                    {event.name}
-                    </div>
+                    <NavLink to={`/aus-idol-lookup/event/${event.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div key={event.id} className="calEvent">
+                            {event.name}
+                        </div>
+                    </NavLink>
                 ))}
                 </div>
             </div>

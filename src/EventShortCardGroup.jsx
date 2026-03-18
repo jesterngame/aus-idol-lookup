@@ -1,5 +1,4 @@
-import React, {useContext} from 'react';
-import {PageContext} from './App.jsx';
+import { NavLink } from "react-router-dom";
 
 function formatDate(date){
   const d = new Date(date)
@@ -10,23 +9,25 @@ function formatDate(date){
 }
 
 function EventShortCardGroup(props){
-    const {updatePageEventSingle} = useContext(PageContext);
+    // const {updatePageEventSingle} = useContext(PageContext);
 
     const eventDate = props.date;
     eventDate.setHours(0,0,0,0);
     let eventDatePhrased = formatDate(eventDate);
-
+    //onClick={() => updatePageEventSingle(props.id)}
     return(
-        <div id={props.id} className="idol-group-card" onClick={() => updatePageEventSingle(props.id)}>
-            <div className="event-group-image">
-                <img src={props.img} alt="Event Poster" />
+        <NavLink to={`/aus-idol-lookup/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+            <div id={props.id} className="idol-group-card" >
+                <div className="event-group-image">
+                    <img src={props.img} alt="Event Poster" />
+                </div>
+                <div className="idolgroup-info">
+                    <strong className="event-info-name">{props.name}</strong>
+                    <div><i className="fa-solid fa-city"></i> {props.city}</div>
+                    <div><i className="fa-solid fa-calendar"></i> {eventDatePhrased}</div>
+                </div>
             </div>
-            <div className="idolgroup-info">
-                <strong className="event-info-name">{props.name}</strong>
-                <div><i className="fa-solid fa-city"></i> {props.city}</div>
-                <div><i className="fa-solid fa-calendar"></i> {eventDatePhrased}</div>
-            </div>
-        </div>
+        </NavLink>
     );
 }
 

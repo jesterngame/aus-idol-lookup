@@ -139,7 +139,7 @@ export const idolGroupsArray = [
     },
     {
         id:5,
-        name:"A-MUSE",
+        name:"A-MUSE PROJECT",
         location:"Brisbane/Meanjin",
         logo: templogo,
         genre: "Jpop",
@@ -429,7 +429,7 @@ export const idolGroupsArray = [
     },
     {
         id: 14,
-        name: "neoism",
+        name: "NEONism",
         location: "Sydney/Eora",
         logo: neonismlogo,
         genre: "Rock, EDM",
@@ -483,7 +483,7 @@ export const idolGroupsArray = [
     },
     {
         id: 16,
-        name: "Part of Piece",
+        name: "Part of Piece!",
         location: "Sydney/Eora",
         logo: partofpiecelogo,
         genre: "",

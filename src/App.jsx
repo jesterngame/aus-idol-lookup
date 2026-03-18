@@ -2,7 +2,21 @@ import Body from './Body.jsx'
 
 import React, {useState, createContext} from 'react';
 
+import { Route, NavLink, createBrowserRouter, createRoutesFromElements, RouterContextProvider, RouterProvider, Link } from 'react-router-dom';
+import BodyEvent from './BodyEvent.jsx'
+import BodyGroup from './BodyGroup.jsx'
+import RootLayout from './RootLayout.jsx'
 export const PageContext = createContext();
+
+// const router = createBrowserRouter([
+//   // createRoutesFromElements(
+//   //   <Route path="aus-idol-lookup" element={RootLayout}>
+//   //     <Route path="" element={<BodyEvent />} />
+//   //     <Route path="aus-idol-lookup/groups" element={<BodyGroup />} />
+//   //   </Route>
+//   // )
+//   {path:"aus-idol-lookup", element:<BodyEvent /> }
+// ]);
 
 function App() {
 
@@ -60,20 +74,27 @@ function App() {
       resetScroll();
     }
 
+
+
     return(
       <div className="site-container">
         <div>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
         </div>
         <div className="nav-bar">
-            <div className="nav-button" onClick={updatePageEvents}>
-              <i className="fa-solid fa-ticket"></i>
-              <label>Events</label>
-            </div>
-            <div className="nav-button" onClick={updatePageCalendar}>
-              <i className="fa-solid fa-calendar"></i>
-              <label>Calendar</label>
-            </div>
+            <NavLink to="/aus-idol-lookup">
+              <div className="nav-button" onClick={updatePageEvents}>
+                <i className="fa-solid fa-ticket"></i>
+                <label>Events</label>
+              </div>
+            </NavLink>
+            
+            <NavLink to="/aus-idol-lookup">
+              <div className="nav-button" onClick={updatePageCalendar}>
+                <i className="fa-solid fa-calendar"></i>
+                <label>Calendar</label>
+              </div>
+            </NavLink>
             <div className="nav-button" onClick={updatePageGroup}>
               <i className="fa-solid fa-music"></i>
               <label>Groups</label>
@@ -84,9 +105,9 @@ function App() {
             </div>
         </div>
         <div className="main-body">
-          <PageContext.Provider value={{page, updatePageGroupSolo, updatePageEventSingle}}>
+          {/* <PageContext.Provider value={{page, updatePageGroupSolo, updatePageEventSingle}}>
             <Body page={page} groupid={currentGroup} eventid={currentEvent} />
-          </PageContext.Provider>
+          </PageContext.Provider> */}
         </div>
       </div>
     );

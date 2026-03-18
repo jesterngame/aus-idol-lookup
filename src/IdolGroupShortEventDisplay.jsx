@@ -1,6 +1,4 @@
-import groupPic from './assets/idol_temp_logo.png'
-import React, {useContext} from 'react';
-import {PageContext} from './App.jsx';
+import { NavLink } from "react-router-dom";
 
 function formatTime(time) {
   const hours = parseInt(time.slice(0, 2));
@@ -13,7 +11,6 @@ function formatTime(time) {
 }
 
 function IdolGroupShortEventDisplay(props){
-    const {page, updatePageGroupSolo} = useContext(PageContext);
 
     let timeM;
     let timeB;
@@ -26,14 +23,16 @@ function IdolGroupShortEventDisplay(props){
     }
 
     return(
-        <div id={props.id} className="idol-group-card" onClick={() => updatePageGroupSolo(props.id)}>
-            <img className="idol-logo-search" src={props.logo} alt="idol logo"></img>
-            <div className="idolgroup-info">
-                <strong>{props.name}</strong>
-                <p><i className="fa-solid fa-music"></i> {timeM}</p>
-                <p><i className="fa-solid fa-shop"></i> {timeB}</p>
+        <NavLink to={`/aus-idol-lookup/group/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+            <div id={props.id} className="idol-group-card" >
+                <img className="idol-logo-search" src={props.logo} alt="idol logo"></img>
+                <div className="idolgroup-info">
+                    <strong>{props.name}</strong>
+                    <p><i className="fa-solid fa-music"></i> {timeM}</p>
+                    <p><i className="fa-solid fa-shop"></i> {timeB}</p>
+                </div>
             </div>
-        </div>
+        </NavLink>
     );
 }
 
