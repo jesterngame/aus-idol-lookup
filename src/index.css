@@ -214,6 +214,11 @@ body {
   margin-top: 60px;
 }
 
+.main-body-filter {
+  padding: 10px;
+  margin-top: -20px;
+}
+
 /* .event-poster-container {
   width: 300px;
 } */
@@ -420,4 +425,25 @@ body {
 .shareQr {
   height: auto;
   width: -webkit-fill-available;
+}
+
+.filterSelectContainer {
+  padding-top: 18px;
+  padding-bottom: 8px;
+  background-color: #323232;
+}
+
+.filterSelectContainer label{
+  color:#B8B9BA ;
+  padding: 4px 12px;
+  font-size: 20px;
+}
+
+.filterSelecter {
+  background-color: #B8B9BA  ;
+  font-size: 18px;
+  color:#000000;
+  border-radius: 12px;
+  border: none;
+  padding: 2px 12px;
 }

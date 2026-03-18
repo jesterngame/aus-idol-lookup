@@ -17,16 +17,18 @@ function EventList(props){
     const currentMonth = now.getMonth();   // 0–11
     const currentYear = now.getFullYear();
 
+    const oneMonthFromNow = new Date();
+      oneMonthFromNow.setMonth(oneMonthFromNow.getMonth() + 1);
+
     const eventThisMonth = eventList.filter(event => {
         const d = event.date;
         return (
-            d.getMonth() === currentMonth &&
-            d.getFullYear() === currentYear
+            d  >= now && d <= oneMonthFromNow
         );
     });
     const listCurrentEvents = eventThisMonth.map(events => <SwiperSlide key={events.id}><EventCurrentMonthCard key={events.id} id={events.id} name={events.name} img={events.img} date={events.date} city={events.city}/></SwiperSlide>);
 
-    const listEvents = eventList.map(events => <EventShort key={events.id} id={events.id} name={events.name} img={events.img} date={events.date} city={events.city}/>);
+    const listEvents = eventThisMonth.map(events => <EventShort key={events.id} id={events.id} name={events.name} img={events.img} date={events.date} city={events.city}/>);
 
     return(
         <>

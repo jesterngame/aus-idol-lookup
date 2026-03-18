@@ -12,6 +12,13 @@ import faeblelogo from '../assets/logos/faeble_logo.jpg'
 import partofpiecelogo from '../assets/logos/partofpiece_logo.jpg'
 import himizulogo from '../assets/logos/himizu_logo.jpg'
 import projectheart_logo from '../assets/logos/projectheart_logo.png'
+import aquaticmemories_logo from '../assets/logos/aquaticmemories_logo.jpg'
+import hibiskiss_logo from '../assets/logos/hibiskiss_logo.png'
+import lumeteor_logo from '../assets/logos/lumeteor_logo.jpg'
+import starrydance_logo from '../assets/logos/starrydance_logo.jpg'
+import unmei_logo from '../assets/logos/unmei_logo.jpg'
+import amuse_logo from '../assets/logos/amuse_logo.jpg'
+import seiryouprocess_logo from '../assets/logos/seiryouprocess_logo.png'
 
 export const idolGroupsArray = [
     {
@@ -108,7 +115,7 @@ export const idolGroupsArray = [
         id:4,
         name:"Seiryou Process ☆ 星稜プロセス",
         location:"Brisbane/Meanjin",
-        logo: templogo,
+        logo: seiryouprocess_logo,
         genre: "Jpop",
         description:`
                 We are Seiryou Process! よろしくお願いします🙇‍♀️🙇‍♂️ A self-produced Australian kaigai idol duo reaching for the stars. Based in Brisbane and established in September 2022, we have been fortunate enough to perform on stages around the country and are ready to take the next step on our journey.
@@ -141,7 +148,7 @@ export const idolGroupsArray = [
         id:5,
         name:"A-MUSE PROJECT",
         location:"Brisbane/Meanjin",
-        logo: templogo,
+        logo: amuse_logo,
         genre: "Jpop",
         description:`
                 Beginning in 2014, A-MUSE formed as a humble one-time cosplay and dance project. Since then, we have morphed into an Australian idol group that performs  a wide variety of Japanese pop and idol music not only within Brisbane, but across Australia!  Driven by our passion for idols, we aim to make the scene more accessible for those who can't make it to Japan to partake in this fun and exciting culture.
@@ -591,5 +598,107 @@ export const idolGroupsArray = [
             }
         ]
     },
+        {
+        id: 20,
+        name: 'Universal Makeup',
+        location: 'Melbourne/Naarm',
+        logo: unmei_logo,
+        genre: '',
+        description:`うんめい ☆ Universal Makeup!!
+            Eyes on this space
+            🩷🩵💚
+
+            Taken from Instagram on 17/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/unmei_idols"
+            }
+        ]
+    },
+    {
+        id: 21,
+        name: 'Hibiskiss',
+        location: 'Melbourne/Naarm',
+        logo: hibiskiss_logo,
+        genre: '',
+        description:``,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/hibiskiss.idols/"
+            },
+            {
+                type: "youtube",
+                link: "https://www.youtube.com/@Hibiskiss-idols"
+            }
+        ]
+    },
+    {
+        id: 22,
+        name: 'Starry Dance',
+        location: 'Melbourne/Naarm',
+        logo: starrydance_logo,
+        genre: '',
+        description:`Just a bunch of girls chasing that glow ✨
+
+            We’re a dance team from Melbourne, Australia 
+            — mostly K-pop, sometimes not 🇦🇺
+
+            Taken from YouTube on 17/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/starrydanceofficial"
+            },
+            {
+                type: "youtube",
+                link: "https://www.youtube.com/@StarryDanceOfficial"
+            },
+            {
+                type: "website",
+                link: "https://lumeteor.square.site/"
+            }
+        ]
+    },
+    {
+        id: 23,
+        name: 'LuMeteor',
+        location: 'Melbourne/Naarm',
+        logo: lumeteor_logo,
+        genre: '',
+        description:`We are a Melbourne-based Kaigai IdolGroup!
+            Mizu Member: Haru Harurun
+            Pastel Purple: Meiry
+            Mint: Kagami
+            Red: Tsuki
+
+            Taken from YouTube on 17/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/lumeteor_aus/"
+            },
+            {
+                type: "youtube",
+                link: "https://www.youtube.com/@LuMeteor_melb"
+            }
+        ]
+    },
+    {
+        id: 24,
+        name: 'Aquatic Memories',
+        location: 'Melbourne/Naarm',
+        logo: aquaticmemories_logo,
+        genre: '',
+        description:``,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/aquatic_memories"
+            }
+        ]
+    },
+
 
 ];

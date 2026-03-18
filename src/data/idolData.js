@@ -566,7 +566,119 @@ export const idolsArray = [
                 link: "https://www.instagram.com/tayytrent/"
             }
         ]
-    }
+    },
+    {
+        id: 44,
+        group:[21],
+        name: "Charm",
+        image: "",
+        idoltype: "",
+        colour: "Pink",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/charmpoint_online"
+            }
+        ]
+    },
+    {
+        id: 45,
+        group:[21],
+        name: "Raiza",
+        image: "",
+        idoltype: "",
+        colour: "Yellow",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/raizabeam_"
+            }
+        ]
+    },
+    {
+        id: 46,
+        group:[23],
+        name: "HARU",
+        image: "",
+        idoltype: "",
+        colour: "Baby blue",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/haru_harurun_"
+            }
+        ]
+    },
+    {
+        id: 47,
+        group:[23],
+        name: "MEIRY",
+        image: "",
+        idoltype: "",
+        colour: "Pastel purple",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/meiry_txt"
+            }
+        ]
+    },
+    {
+        id: 48,
+        group:[23],
+        name: "KAGAMI",
+        image: "",
+        idoltype: "",
+        colour: "Green",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/3oa_kagami"
+            }
+        ]
+    },
+    {
+        id: 49,
+        group:[23],
+        name: "TSUKI",
+        image: "",
+        idoltype: "",
+        colour: "Red",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/genntsuki"
+            }
+        ]
+    },
+    {
+        id: 50,
+        group:[24],
+        name: "Milky",
+        image: "",
+        idoltype: "",
+        colour: "Pink",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/milky_star.mp3"
+            }
+        ]
+    },
+    {
+        id: 51,
+        group:[24],
+        name: "Eli",
+        image: "",
+        idoltype: "",
+        colour: "Orange",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/out.of_blue"
+            }
+        ]
+    },
 ];
 
 

@@ -1,15 +1,23 @@
 import full_throttle_idol_relay_live from '../assets/posters/full_throttle_idol_relay_live.jpg'
 import temp_event_show from '../assets/posters/temp_event_show.png'
 import animaga_2026_sydney from '../assets/posters/animaga_2026_sydney.jpg'
+import event_5_poster from '../assets/posters/event_5_poster.jpg'
+import event_6_poster from '../assets/posters/event_6_poster.png'
+import event_7_poster from '../assets/posters/event_7_poster.jpg'
+import event_10_poster from '../assets/posters/event_10_poster.jpg'
+import event_11_poster from '../assets/posters/event_11_poster.jpg'
+import event_12_poster from '../assets/posters/event_12_poster.png'
+import event_13_poster from '../assets/posters/event_13_poster.jpg'
+import event_14_poster from '../assets/posters/event_14_poster.jpg'
 
 export const eventsArray = [
     {
         id:1,
-        name: "Unknown Event",
+        name: "TBA Snacktime Event",
         type: "live",
         city: "Brisbane/Meanjin",
         address: "Not yet known",
-        description: `An event being put on by Snacktime`,
+        description: `TBA Snacktime Event`,
         img: temp_event_show,
         ticketlink: "",
         groups: [{ id: 2, mtime: "", btime: "" }],
@@ -87,5 +95,194 @@ export const eventsArray = [
             { id: 1, mtime: "1615", btime: "1630" }
         ],
         date: new Date(2026, 2, 14) // year, month (0-11), day
-    }
+    },
+    {
+        id: 5,
+        name: "DOUBLE FOOL - Gachi of Piece! + NEON LOUNGE",
+        type: "live",
+        city: "Sydney/Eora",
+        address: "ESCAC by BRAND X",
+        description: `A gathering to commemorate something...? Why are they run at the same time? A Lounge and Otaku ofukai? 
+
+
+        Gachi of Piece! 
+        Otaku! Wota! Let"s have an ofukai together where we celebrate our favourite idols! Let"s go all out and call! Bring your badges (wait do we have any?), Penlights, and uryaoi! Cheki-meishi, kagishime, cause world chaos and show your oshi who"s the true top wota. Wear your favourite Idol group"s merch and get something from us.
+
+        今日の最前管理
+
+        Emi"s #1 Otaku (Lili) 
+        Lili"s #1 Otaku (Emi)
+
+        NEON LOUNGE
+
+        Come and bask yourself in the hospitality of the neon lounge. Share a drink with us* and celebrate, after a long week of hard work. Wear something fancy and classy, and you might get a special gift! 
+
+        CAST 
+
+        FUUTAiZMiZUKI
+        Shiitakki
+
+        no alcohol will be served*`,
+        ticketlink: "https://www.4qnq.info/event-details/double-fool-gachi-of-piece-neon-lounge",
+        img: event_5_poster,
+        groups: [],
+        date: new Date(2026, 2, 22)
+    },
+    {
+        id: 6,
+        name: "極致ピエロ: THE PROPRO SHOW",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "PIP Theatre",
+        description: `Welcome one and all to Seiryou Process’s end of Sad Clown era live: Kyokuchi Pierro. Join us and supporting act Amuse Project in a unique, high-energy dark-circus themed kaigai idol live to celebrate music, creativity, and all things clown. Hold onto your sanity; our circus only has one more stop before the end of the road. Get a taste of what comes next.`,
+        ticketlink: "https://piptheatre.org/%E6%A5%B5%E8%87%B4%E3%83%94%E3%82%A8%E3%83%AD-the-propro-show/",
+        img: event_6_poster,
+        groups: [],
+        date: new Date(2026, 3, 4)
+    },
+    {
+        id: 7,
+        name: "AniMayhem 2026 Saturday",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "Brisbane Convention and Exhibition Centre",
+        description: `AniMayhem is Brisbane’s newest anime and pop culture convention, debuting in May 2026. Set to attract thousands of anime lovers, cosplayers, collectors, and pop culture fans. This immersive two-day event offers a platform for brands to engage directly with Australia’s vibrant otaku community.`,
+        ticketlink: "https://expertiseevents.eventsair.com/animayhem-2026/animayhemtix26/Site/Register",
+        img: event_7_poster,
+        groups: [],
+        date: new Date(2026, 4, 2)
+    },
+    {
+        id: 8,
+        name: "Unknown Event",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "",
+        description: ``,
+        ticketlink: "",
+        img: temp_event_show,
+        groups: [],
+        date: new Date(2026, 4, 2)
+    },
+    {
+        id: 9,
+        name: "AniMayhem 2026 Sunday",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "Brisbane Convention and Exhibition Centre",
+        description: `AniMayhem is Brisbane’s newest anime and pop culture convention, debuting in May 2026. Set to attract thousands of anime lovers, cosplayers, collectors, and pop culture fans. This immersive two-day event offers a platform for brands to engage directly with Australia’s vibrant otaku community.`,
+        ticketlink: "https://expertiseevents.eventsair.com/animayhem-2026/animayhemtix26/Site/Register",
+        img: event_7_poster,
+        groups: [],
+        date: new Date(2026, 4, 3)
+    },
+    {
+        id: 10,
+        name: "Shiro Stage",
+        type: "live",
+        city: "Melbourne/Naarm",
+        address: "Richmond Theatrette",
+        description: `Overview
+
+        Melbourne idol groups come together for a reverse Valentines show for White Day
+
+        Welcome to Shiro Stage!
+        One month after Valentines day, we celebrate once again with gift giving and sweet treats.
+
+
+        Featuring performances by:
+        LuMeteor
+
+        Hibiskiss
+
+        Aquatic Memories
+
+        and a debut performance by Unmei`,
+        ticketlink: "https://www.eventbrite.com.au/e/shiro-stage-idol-taiban-tickets-1982266809388",
+        img: event_10_poster,
+        groups: [],
+        date: new Date(2026, 2, 22)
+    },
+    {
+        id: 11,
+        name: "AniRock Fes Melbourne",
+        type: "live",
+        city: "Melbourne/Naarm",
+        address: "Stay Gold",
+        description: `Get ready for a night dedicated entirely to J-Rock, J-Pop, and iconic anime music!
+
+        This special live event features two idol groups and two live bands, bringing you performances from classics to fan-favorites band animes — including hits from BanG Dream!, Bocchi the Rock!, etc.
+
+        🔥Follow our host instagram ‘overtuned_band’ to get setlists and more details!
+
+        Expect an immersive J-music experience with:
+        ✨ High-energy stages by local idol groups
+        🎸 Live band performances of anime and J-Rock classics
+        🎭 Cosplay on stage — many members will be performing in character, and we fully welcome audiences to come in their favourite cosplay and enjoy the music together!
+
+        To bring the authentic Japanese livehouse atmosphere, we’ve also prepared:
+        📸 Cheki (Polaroid) sessions
+        🤝 Special meet & greet / tokuten time
+        🎁 Lucky draw prizes for attendees
+
+        If you’re a fan of anime music, J-Rock, Japanese idols, or JP livehouse culture,
+        **this is an event you definitely don’t want to miss!**🔥`,
+        ticketlink: "https://www.eventbrite.com.au/e/anirock-fes-melbourne-tickets-1978683448459",
+        img: event_11_poster,
+        groups: [],
+        date: new Date(2026, 2, 29)
+    },
+    {
+        id: 12,
+        name: "Ready, Set, Re:Start!",
+        type: "live",
+        city: "Sydney/Eora",
+        address: "Red Rattler Theatre",
+        description: `READY. SET! RE:START 💜 — Azusa Graduation Live
+
+        Come send off Azusa with Faeble at our next one-man-live! 
+
+        🗓️ 29.03.26
+        📍 Red Rattler, Marrickville 
+        ⏱️ Doors open — 6PM`,
+        ticketlink: "https://www.faeblefuture.com/shop/p/hyperdrive-5r2sw-8jyr3",
+        img: event_12_poster,
+        groups: [],
+        date: new Date(2026, 2, 29)
+    },
+    {
+        id: 13,
+        name: "Idolscope IV - 深海の中へ",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "Hamilton Town Hall",
+        description: ``,
+        ticketlink: "https://www.instagram.com/idolscope.au/",
+        img: event_13_poster,
+        groups: [],
+        date: new Date(2026, 7, 7)
+    },
+    {
+        id: 14,
+        name: "Evernight Ball",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "Grange Community Hall",
+        description: `⭐️✨🌌🪩
+
+        𝒀𝒐𝒖 𝒂𝒓𝒆 𝒇𝒐𝒓𝒎𝒂𝒍𝒍𝒚 𝒊𝒏𝒗𝒊𝒕𝒆𝒅… 𝓣𝓸 𝓸𝓾𝓻 𝓔𝓿𝓮𝓻𝓷𝓲𝓰𝓱𝓽 𝓑𝓪𝓵𝓵!
+        A magical night of dancing, dress up, and performances. All to fundraise for children in need
+
+        💫 Save the date, and join Starlight Chasers 💫
+        » on August 29th 2026 from 3:45pm
+        » at Grange Town Hall
+        » in Formal / Semi Formal dress code
+
+        » More information to come !`,
+        ticketlink: "",
+        img: event_14_poster,
+        groups: [],
+        date: new Date(2026, 7, 29)
+    },
+
 ];
