@@ -57,7 +57,7 @@ export const idolGroupsArray = [
         name:"SnackTime Idols!",
         location:"Brisbane/Meanjin",
         logo: snacktimelogo,
-        genre: "Jpop", 
+        genre: "Jpop, Genki", 
         description:`Yum yum! We are Snack Time Idols (スナックタイム) a Kaigai Jpop Idol Trio from Brisbane. We perform singing and dancing with songs from anime, to jpop, to Australian based idol groups. Come along to watch a delicious performance that’s high energy and full of heart from our 3 appetising idols.
 
             Our goal is to grow our individual skills while performing energizing shows, perform across Australia and promote improvement, support and fun in our community

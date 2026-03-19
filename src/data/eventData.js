@@ -10,6 +10,7 @@ import event_12_poster from '../assets/posters/event_12_poster.png'
 import event_13_poster from '../assets/posters/event_13_poster.jpg'
 import event_14_poster from '../assets/posters/event_14_poster.jpg'
 import event_15_poster from '../assets/posters/event_15_poster.jpg'
+import event_16_poster from '../assets/posters/event_16_poster.jpg'
 
 export const eventsArray = [
     {
@@ -17,7 +18,7 @@ export const eventsArray = [
         name: "TBA Snacktime Event",
         type: "live",
         city: "Brisbane/Meanjin",
-        address: "Not yet known",
+        address: "Queen Street Mall",
         description: `TBA Snacktime Event`,
         img: temp_event_show,
         ticketlink: "",
@@ -313,7 +314,7 @@ export const eventsArray = [
         type: "live",
         city: "Brisbane/Meanjin",
         address: "Hamilton Town Hall",
-        description: `Please join us for our first ever birthday live event with guest maids, Bloom Idol Project!! It"ll be a night full of moe & magical spells to keep the night alive~
+        description: `Please join us for our first ever birthday live event with guest maids, Bloom Idol Project!! It'll be a night full of moe & magical spells to keep the night alive~
 
         Merch & drinks are available for purchase during the event.
 
@@ -330,6 +331,33 @@ export const eventsArray = [
         ],
         date: new Date(2026, 4, 30)
     },
+    {
+        id: 16,
+        name: "Baywave Youth Festival!",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "Lota Skatepark, Lota",
+        description: `Baywave Youth Festival!
 
+            Time: 11AM-4PM
+
+            Tickets: Free`,
+        ticketlink: "https://www.instagram.com/babiyouthandfamilyservice/",
+        img: event_16_poster,
+        groups: [{ id: 2, mtime: "", btime: "" }],
+        date: new Date(2026, 3, 8)
+    },
+    {
+        id: 17,
+        name: "Unknown Event",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "West End",
+        description: ``,
+        img: temp_event_show,
+        ticketlink: "",
+        groups: [{ id: 2, mtime: "", btime: "" }],
+        date: new Date(2026, 3, 25) // year, month (0-11), day
+    },
 
 ];
