@@ -20,6 +20,9 @@ import unmei_logo from '../assets/logos/unmei_logo.jpg'
 import amuse_logo from '../assets/logos/amuse_logo.jpg'
 import seiryouprocess_logo from '../assets/logos/seiryouprocess_logo.png'
 import moemagicmaids_logo from '../assets/logos/moemagicmaids_logo.jpg'
+import constellation_logo from '../assets/logos/constellation_logo.jpg'
+import defi_logo from '../assets/logos/defi_logo.jpg'
+import yumehoshi_logo from '../assets/logos/yumehoshi_logo.jpg'
 
 export const idolGroupsArray = [
     {
@@ -54,7 +57,7 @@ export const idolGroupsArray = [
     },
     {
         id:2,
-        name:"SnackTime Idols!",
+        name:"SnackTime",
         location:"Brisbane/Meanjin",
         logo: snacktimelogo,
         genre: "Jpop, Genki", 
@@ -732,6 +735,77 @@ export const idolGroupsArray = [
             }
         ]
     },
+        {
+        id: 26,
+        name: "De:Fi the odds!",
+        location: "Brisbane/Meanjin",
+        logo: defi_logo,
+        genre: "",
+        description:`We are De:Fi! A pink and blue brisbane-based idol duo 💙💕
 
+        Taken from Tiktok on 21/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/defi.official/"
+            },
+            {
+                type: "tiktok",
+                link: "https://www.tiktok.com/@de..fi"
+            },
+            {
+                type: "youtube",
+                link: "https://www.youtube.com/@defi.official"
+            }
+        ]
+    },
+    {
+        id: 27,
+        name: "Constellation",
+        location: "Brisbane/Meanjin",
+        logo: constellation_logo,
+        genre: "",
+        description:`Established in 2017 as a Love Live! Idol group, Constellation are a Brisbane based kaigai idol and dance group who love to share their passion and energy on stage for all things J-idol!
+
+        Taken from Website on 21/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/constellation_aus/"
+            },
+            {
+                type: "tiktok",
+                link: "https://www.tiktok.com/@constellation_aus"
+            },
+            {
+                type: "youtube",
+                link: "https://www.youtube.com/@constellation_aus"
+            },
+            {
+                type: "website",
+                link: "https://constella-tion.carrd.co/"
+            }
+        ]
+    },
+    {
+        id: 28,
+        name: "Yume☆Hoshi",
+        location: "Brisbane/Meanjin",
+        logo: yumehoshi_logo,
+        genre: "",
+        description:`『夢にキラめく、お星さまアイドル』
+        ☆ kaigai idol group based in Brisbane☆
+        Taken from Instagram on 21/03/2026`,
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/yumehoshi_idol/"
+            },
+            {
+                type: "tiktok",
+                link: "https://www.tiktok.com/@yumehoshi_idol"
+            }
+        ]
+    },
 
 ];

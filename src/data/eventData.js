@@ -11,6 +11,7 @@ import event_13_poster from '../assets/posters/event_13_poster.jpg'
 import event_14_poster from '../assets/posters/event_14_poster.jpg'
 import event_15_poster from '../assets/posters/event_15_poster.jpg'
 import event_16_poster from '../assets/posters/event_16_poster.jpg'
+import event_17_poster from '../assets/posters/event_17_poster.jpg'
 
 export const eventsArray = [
     {
@@ -108,12 +109,12 @@ export const eventsArray = [
 
 
         Gachi of Piece! 
-        Otaku! Wota! Let"s have an ofukai together where we celebrate our favourite idols! Let"s go all out and call! Bring your badges (wait do we have any?), Penlights, and uryaoi! Cheki-meishi, kagishime, cause world chaos and show your oshi who"s the true top wota. Wear your favourite Idol group"s merch and get something from us.
+        Otaku! Wota! Let's have an ofukai together where we celebrate our favourite idols! Let's go all out and call! Bring your badges (wait do we have any?), Penlights, and uryaoi! Cheki-meishi, kagishime, cause world chaos and show your oshi who"s the true top wota. Wear your favourite Idol group"s merch and get something from us.
 
         今日の最前管理
 
-        Emi"s #1 Otaku (Lili) 
-        Lili"s #1 Otaku (Emi)
+        Emi's #1 Otaku (Lili) 
+        Lili's #1 Otaku (Emi)
 
         NEON LOUNGE
 
@@ -349,14 +350,19 @@ export const eventsArray = [
     },
     {
         id: 17,
-        name: "Unknown Event",
-        type: "live",
+        name: "Oishii Party  おいしい パーティー",
+        type: "taiban",
         city: "Brisbane/Meanjin",
-        address: "West End",
-        description: ``,
-        img: temp_event_show,
-        ticketlink: "",
-        groups: [{ id: 2, mtime: "", btime: "" }],
+        address: "Kurilpa Hall, 174 Boundary St, West End QLD 4101",
+        description: `Ready your plates for delicious performance from Idols in Meanjin (Brisbane). SnackTime presents our Taiban event "おいしい パーティー" with special help from Constellation. This event will include four ~15 minute performances from four idol groups and buppan merch sales. Join us on April 25th, 5:30pm - 8pm, Kurilpa Hall West End.`,
+        img: event_17_poster,
+        ticketlink: "https://www.trybooking.com/events/landing/1558232?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+        groups: [
+            { id: 2, mtime: "", btime: "" },
+            { id: 26, mtime: "", btime: "" },
+            { id: 27, mtime: "", btime: "" },
+            { id: 28, mtime: "", btime: "" }
+        ],
         date: new Date(2026, 3, 25) // year, month (0-11), day
     },
 

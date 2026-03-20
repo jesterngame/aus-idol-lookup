@@ -735,6 +735,217 @@ export const idolsArray = [
             }
         ]
     },
+        {
+        id: 55,
+        group:[26],
+        name: "Rye",
+        image: "",
+        idoltype: "",
+        colour: "Blue",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/phantasmaniac/"
+            }
+        ]
+    },
+    {
+        id: 56,
+        group:[26],
+        name: "Reese",
+        image: "",
+        idoltype: "",
+        colour: "Pink",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/aphrdxte/"
+            }
+        ]
+    },
+    {
+        id: 57,
+        group:[28],
+        name: "Rika",
+        image: "",
+        idoltype: "",
+        colour: "Pink",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/rika_yumehoshi/"
+            }
+        ]
+    },
+    {
+        id: 58,
+        group:[28],
+        name: "Saki",
+        image: "",
+        idoltype: "",
+        colour: "Purple",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/saki_yumehoshi/"
+            }
+        ]
+    },
+    {
+        id: 59,
+        group:[27],
+        name: "Leader - #01",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/fishumi"
+            }
+        ]
+    },
+    {
+        id: 60,
+        group:[27],
+        name: "C☆nstella #13",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/roselexia"
+            }
+        ]
+    },
+    {
+        id: 61,
+        group:[27],
+        name: "C☆nstella #15",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/pochirabu"
+            }
+        ]
+    },
+    {
+        id: 62,
+        group:[27],
+        name: "C☆nstella #16",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/catastrophe_cos"
+            }
+        ]
+    },
+    {
+        id: 63,
+        group:[27],
+        name: "C☆nstella #17",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/kh_piano"
+            }
+        ]
+    },
+    {
+        id: 64,
+        group:[27],
+        name: "C☆nstella #19",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/bevitched"
+            }
+        ]
+    },
+    {
+        id: 65,
+        group:[27],
+        name: "C☆nstella #20",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/enby.tiefling"
+            }
+        ]
+    },
+    {
+        id: 66,
+        group:[27],
+        name: "C☆nstella #21",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/adi._.cos"
+            }
+        ]
+    },
+    {
+        id: 67,
+        group:[27],
+        name: "C☆nstella #22",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/flowermaiden.cos"
+            }
+        ]
+    },
+    {
+        id: 68,
+        group:[27],
+        name: "C☆nstella #23",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/stephh.maarie"
+            }
+        ]
+    },
+    {
+        id: 69,
+        group:[27],
+        name: "C☆nstella #24",
+        image: "",
+        idoltype: "",
+        colour: "",
+        socials: [
+            {
+                 type: "instagram",
+                link: "https://www.instagram.com/yourlocalsophia"
+            }
+        ]
+    },
+
 
 ];
 
