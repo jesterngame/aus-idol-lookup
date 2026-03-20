@@ -9,6 +9,9 @@ import GroupPage from './GroupPage.jsx'
 import BodyCalendar from './BodyCalendar.jsx'
 import BodyEventSingle from './BodyEventSingle.jsx'
 import SharePage from './SharePage.jsx'
+import BodyGlossary from './BodyGlossary.jsx'
+
+BodyGlossary
 
 const router = createHashRouter([
   {path:"", element:<BodyEvent /> },
@@ -16,7 +19,8 @@ const router = createHashRouter([
   {path:"/group", element:<BodyGroup />},
   {path:"/group/:groupid", element:<GroupPage />},
   {path:"/event/:eventid", element:<BodyEventSingle />},
-  {path:"/share", element:<SharePage />}
+  {path:"/share", element:<SharePage />},
+  {path:"/glossary", element:<BodyGlossary />}
 ]);
 
 
@@ -25,6 +29,7 @@ createRoot(document.getElementById('root')).render(
       <div className="site-container">
         <div>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"></link>
         </div>
         <RouterProvider router={router} />
       </div>
