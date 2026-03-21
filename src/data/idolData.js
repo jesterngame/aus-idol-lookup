@@ -2,7 +2,7 @@ export const idolsArray = [
     {
         id: 1,
         group: [1],
-        name: "Isabella",
+        name: "Bella",
         image: "imgs/temp_portrait.png",
         idoltype: "",
         colour: "Pink",
@@ -115,7 +115,7 @@ export const idolsArray = [
         name: "Sunny",
         image: "",
         idoltype: "Mahou Gyaru",
-        colour: "Pink",
+        colour: "Sunshine Pink",
         socials: [
             {
                 type: "instagram",
@@ -164,7 +164,7 @@ export const idolsArray = [
     {
         id: 12,
         group: [5],
-        name: "Kate",
+        name: "Kate (hiatus)",
         image: "imgs/temp_portrait.png",
         idoltype: "",
         colour: "Blue",
@@ -395,7 +395,7 @@ export const idolsArray = [
         socials: [
             {
                  type: "instagram",
-                link: "https://www.instagram.com/s2ulka/"
+                link: "https://www.instagram.com/im_sakukato"
             }
         ]
     },
@@ -485,15 +485,35 @@ export const idolsArray = [
     },
     {
         id: 37,
-        group:[15],
+        group:[15, 29],
         name: "Coda",
         image: "",
         idoltype: "",
         colour: "Nostalgic Blue",
         socials: [
             {
-                 type: "instagram",
+                type: "instagram",
                 link: "https://instagram.com/undeadcoda"
+            },
+            {
+                type: "tiktok",
+                link: "https://tiktok.com/@undeadcoda"
+            },
+            {
+                type: "twitter",
+                link: "https://twitter.com/undeadcoda"
+            },
+            {
+                type: "website",
+                link: "https://www.codatheundead.net/"
+            },
+            {
+                type: "youtube",
+                link: "https://www.youtube.com/@coda_the_undead"
+            },
+            {
+                type: "twitch",
+                link: "https://twitch.tv/undeadcoda"
             }
         ]
     },
@@ -898,7 +918,7 @@ export const idolsArray = [
         colour: "",
         socials: [
             {
-                 type: "instagram",
+                type: "instagram",
                 link: "https://www.instagram.com/adi._.cos"
             }
         ]
@@ -912,7 +932,7 @@ export const idolsArray = [
         colour: "",
         socials: [
             {
-                 type: "instagram",
+                type: "instagram",
                 link: "https://www.instagram.com/flowermaiden.cos"
             }
         ]
@@ -926,7 +946,7 @@ export const idolsArray = [
         colour: "",
         socials: [
             {
-                 type: "instagram",
+                type: "instagram",
                 link: "https://www.instagram.com/stephh.maarie"
             }
         ]
@@ -940,11 +960,86 @@ export const idolsArray = [
         colour: "",
         socials: [
             {
-                 type: "instagram",
+                type: "instagram",
                 link: "https://www.instagram.com/yourlocalsophia"
             }
         ]
     },
+        {
+        id: 70,
+        group:[15],
+        name: "Azusa",
+        image: "",
+        idoltype: "",
+        colour: "Lilac Purple",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/azusakayo"
+            }
+        ]
+    },
+    {
+        id: 71,
+        group:[20],
+        name: "Tiara",
+        image: "",
+        idoltype: "",
+        colour: "Blue",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/tiara.idol.aus"
+            }
+        ]
+    },
+    {
+        id: 72,
+        group:[20],
+        name: "WanWan",
+        image: "",
+        idoltype: "",
+        colour: "Green",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/wanwan_pupidol"
+            }
+        ]
+    },
+    {
+        id: 73,
+        group:[20],
+        name: "Bee",
+        image: "",
+        idoltype: "",
+        colour: "Pink",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/b33.rex"
+            }
+        ]
+    },
+    {
+        id: 74,
+        group:[30],
+        name: "Wooly",
+        image: "",
+        idoltype: "",
+        colour: "Green",
+        socials: [
+            {
+                type: "instagram",
+                link: "https://www.instagram.com/wooly_chan"
+            },
+            {
+                type: "twitter",
+                link: "https://x.com/wooly_chan"
+            }
+        ]
+    },
+
 
 
 ];

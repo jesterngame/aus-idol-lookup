@@ -12,6 +12,12 @@ import event_14_poster from '../assets/posters/event_14_poster.jpg'
 import event_15_poster from '../assets/posters/event_15_poster.jpg'
 import event_16_poster from '../assets/posters/event_16_poster.jpg'
 import event_17_poster from '../assets/posters/event_17_poster.jpg'
+import event_18_poster from '../assets/posters/event_18_poster.webp'
+import event_19_poster from '../assets/posters/event_19_poster.png'
+import event_20_poster from '../assets/posters/event_20_poster.jpg'
+import event_22_poster from '../assets/posters/event_22_poster.jpg'
+import event_23_poster from '../assets/posters/event_23_poster.webp'
+import event_24_poster from '../assets/posters/event_24_poster.webp'
 
 export const eventsArray = [
     {
@@ -354,7 +360,7 @@ export const eventsArray = [
         type: "taiban",
         city: "Brisbane/Meanjin",
         address: "Kurilpa Hall, 174 Boundary St, West End QLD 4101",
-        description: `Ready your plates for delicious performance from Idols in Meanjin (Brisbane). SnackTime presents our Taiban event "おいしい パーティー" with special help from Constellation. This event will include four ~15 minute performances from four idol groups and buppan merch sales. Join us on April 25th, 5:30pm - 8pm, Kurilpa Hall West End.`,
+        description: `Ready your plates for delicious performance from Idols in Meanjin (Brisbane). SnackTime presents our Taiban event 'おいしい パーティー' with special help from Constellation. This event will include four ~15 minute performances from four idol groups and buppan merch sales. Join us on April 25th, 5:30pm - 8pm, Kurilpa Hall West End.`,
         img: event_17_poster,
         ticketlink: "https://www.trybooking.com/events/landing/1558232?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
         groups: [
@@ -365,5 +371,133 @@ export const eventsArray = [
         ],
         date: new Date(2026, 3, 25) // year, month (0-11), day
     },
+    {
+        id: 18,
+        name: "Oshi Mart 2",
+        type: "live",
+        city: "Perth/Boorloo",
+        address: "Moonchunk Gacha and Claw",
+        description: `Ever wondered how idol fans know to chant and cheer in sync? Or how the audience coordinates their penlights seamlessly to each song? Now is your chance to learn!
+
+        Oshi Mart will be hosting TWO Wota 101 sessions taught by Brisbane Idol Cassie-Sama. These sessions will instruct you on how to call/mix, use your penlights, and some extra bits on oshi-culture you mightn't know! 
+
+        These sessions are free and open to everybody! RSVP is not required but encouraged and available via the link in our bio! 
+
+        Practice your new skills with our performers throughout the day, and get excited about idol!`,
+        ticketlink: "https://form.jotform.com/260748837856879",
+        img: event_18_poster,
+        groups: [
+            { id: 6, mtime: "", btime: "" }
+        ],
+        date: new Date(2026, 3, 11) // year, month (0-11), day
+    },
+    {
+        id: 19,
+        name: "Yume No Chu!",
+        type: "live",
+        city: "Perth/Boorloo",
+        address: "The Jonesway Theatre",
+        description: `iDol Mic Night presents their second JPOP IDOL TAIBAN: Yume No Chu!
+        Enter the dreamy stage and cheer on your favourite stars as they perform Japanese idol, jpop and anisong faves!`,
+        ticketlink: "https://www.thejoneswaytheatre.com.au/eventsandtickets/idol-mic-night",
+        img: event_19_poster,
+        groups: [],
+        date: new Date(2026, 4, 2) // year, month (0-11), day
+    },
+    {
+        id: 20,
+        name: "IDOLKURA 11",
+        type: "live",
+        city: "Sydney/Eora",
+        address: "Rouge Bar Sydney",
+        description: `We"re bringing back IDOLKURA! Come share a drink, dance to a night of J-Idol, Anikura, J-Core! 
+        With DJ INVOKER & CODA making their IDOLKURA DEBUT!`,
+        ticketlink: "https://www.4qnq.info/event-details/idolkura-11",
+        img: event_20_poster,
+        groups: [
+            { id: 29, mtime: "", btime: "" },
+            { id: 3, mtime: "", btime: "" },
+            { id: 16, mtime: "", btime: "" },
+            { id: 14, mtime: "", btime: "" }
+        ],
+        date: new Date(2026, 2, 30) // year, month (0-11), day
+    },
+    {
+        id: 21,
+        name: "Deakin Idol Fest",
+        type: "live",
+        city: "Melbourne/Naarm",
+        address: "Deakin University Burwood",
+        description: `Our mid trimester celebration is here! If you’re a fan of J-pop or K-pop, come have fun with us on the last day of uni before the Easter break. The evening will be full of idol performances, and related craft activities and games.`,
+        ticketlink: "https://www.instagram.com/p/DVx1RvXE727/",
+        img: temp_event_show,
+        groups: [{ id: 30, mtime: "", btime: "" }],
+        date: new Date(2026, 3, 2) // year, month (0-11), day
+    },
+    {
+        id: 22,
+        name: "Charm's Picnic Party",
+        type: "live",
+        city: "Melbourne/Naarm",
+        address: "Flagstaff Gardens",
+        description: `It's a party, and you"re invited!!🌺
+
+        This April 4th, I"m hosting a picnic at Flagstaff Gardens! 
+
+        For this event, anyone can perform on this open stage concept live. Please apply via the form below.`,
+        ticketlink: "https://docs.google.com/forms/d/e/1FAIpQLSe6ADVXo8vLtBriOLhyNEskShuicdXuygooDEL0yymO_pKDyg/viewform",
+        img: event_22_poster,
+        groups: [{ id: 30, mtime: "", btime: "" }],
+        date: new Date(2026, 3, 4) // year, month (0-11), day
+    },
+    {
+        id: 23,
+        name: "INTERSTELLAR",
+        type: "live",
+        city: "Brisbane/Meanjin",
+        address: "E-Space",
+        description: `Multiverse AU proudly presents Interstellar, our very first event!—where idols and creators collide across worlds.
+
+
+        Interstellar is a celebration of performance culture and community, connecting the audience to a wide range of talented performers from all walks of life, while also bringing our own mini artist alley for a festival feel.
+
+        Join Multiverse as we begin a journey so many have achieved before us!
+
+        This is a community-run event. Ticket purchases contribute directly to the costs of delivering the event and ensuring a safe, high-quality experience for performers, vendors, and attendees. Thank you for supporting independent creative communities and helping make this event possible.`,
+        ticketlink: "https://events.humanitix.com/interstellar-y6qh262g?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAQq659leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafOTjET_QgvX_zAQ_bFtUof5siYi5fdw4zWwQqmDVbs1QQQcGD8GlKU7jwojQ_aem_lMtEiTnBWUWrpzwMNwHhgw",
+        img: event_23_poster,
+        groups: [],
+        date: new Date(2026, 9, 3) // year, month (0-11), day
+    },
+    {
+        id: 24,
+        name: "We are HiMizu!",
+        type: "live",
+        city: "Sydney/Eora",
+        address: "ESCAC by Brand X",
+        description: `HiMizu"s 1st One Man - We are HiMizu!
+
+        Details:
+
+        Saturday, 4th April 2026
+
+        ESCAC by Brand X, 34 Burton Street, Darlinghurst
+
+        Doors: 3:00pm
+
+        Start: 3:15pm
+
+
+
+        FREE ENTRY (RSVP using this ticket)
+
+        Live Programs are available for pick up for $10!
+
+        Note - There will be a limited amount on the day. Purchasing a booklet with your RSVP ensures you don't miss out!`,
+        ticketlink: "https://himizu.square.site/product/we-are-himizu-ticket/ZYPCO753WLXRRMT4JXH3VMJR",
+        img: event_24_poster,
+        groups: [{ id: 18, mtime: "", btime: "" }],
+        date: new Date(2026, 3, 4) // year, month (0-11), day
+    }
 
 ];

@@ -25,6 +25,7 @@ function Idol(props){
         case "Devilish Pink":
         case "Rose Pink":
         case "Hot Pink":
+        case "Sunshine Pink":
             penlight = 'pink';
             break;
         case "Electric Yellow":

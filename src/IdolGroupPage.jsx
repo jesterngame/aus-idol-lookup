@@ -44,7 +44,7 @@ function IdolGroupPage(props){
             <div className="column left">
                 <img className="idol-logo" src={groupData.logo} alt="idol logo"></img>
                 <h1>{groupData.name}</h1>
-                    <div>Location: {groupData.location} Genre: {groupData.genre}</div><br/>
+                    <div>Location: {groupData.location} Genre: {groupData.genre.join(", ")}</div><br/>
                 <div className="group-socials">
                     {listSocials}
                 </div>
