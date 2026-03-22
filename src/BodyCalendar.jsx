@@ -25,6 +25,7 @@ function BodyCalendar(){
                 <option value="Brisbane/Meanjin">Brisbane/Meanjin</option>
                 <option value="Melbourne/Naarm">Melbourne/Naarm</option>
                 <option value="Sydney/Eora">Sydney/Eora</option>
+                <option value="Perth/Boorloo">Perth/Boorloo</option>
             </select>
         </div>
         <div className="main-body-filter">

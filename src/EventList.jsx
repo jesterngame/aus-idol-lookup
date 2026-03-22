@@ -8,6 +8,7 @@ import 'swiper/css/free-mode';
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import { Autoplay, Navigation, FreeMode, Pagination } from 'swiper/modules';
+import { NavLink } from "react-router-dom";
 
 function EventList(props){
 
@@ -54,6 +55,15 @@ function EventList(props){
                     </div>
                 </Swiper>
             </div>
+            <NavLink to={`/submitdata`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div className="forms-data-container">
+                    <h5>Help Provide Information</h5>
+                    {/* <strong>Event Submission</strong>
+                    <strong>Event Update</strong>
+                    <strong>Group Submission</strong>
+                    <strong>Group Update</strong> */}
+                </div>
+            </NavLink>
             <div className="event-list-container">
                 {/* {listEvents} */}
                 <div className="hompage-intro">

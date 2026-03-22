@@ -156,11 +156,16 @@ function RootLayout(){
                 <label>Idols</label>
             </div>
             </NavLink>
-            <NavLink to="/glossary" style={{ textDecoration: 'none', color: 'inherit' }}>
+            {/* <NavLink to="/glossary" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="nav-button" >
-                {/* <i className="fa-solid fa-music"></i> */}
                 <i className="fa-regular fa-circle-question"></i>
                 <label>Glossary</label>
+            </div>
+            </NavLink> */}
+            <NavLink to="/about" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <div className="nav-button" >
+                <i className="fa-solid fa-circle-info"></i>
+                <label>About</label>
             </div>
             </NavLink>
             <NavLink to="/share" style={{ textDecoration: 'none', color: 'inherit' }}>

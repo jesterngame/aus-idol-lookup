@@ -10,8 +10,8 @@ import BodyCalendar from './BodyCalendar.jsx'
 import BodyEventSingle from './BodyEventSingle.jsx'
 import SharePage from './SharePage.jsx'
 import BodyGlossary from './BodyGlossary.jsx'
-
-BodyGlossary
+import BodyFormSubmit from './BodyFormSubmit.jsx'
+import BodyAbout from './BodyAbout.jsx'
 
 const router = createHashRouter([
   {path:"", element:<BodyEvent /> },
@@ -20,7 +20,9 @@ const router = createHashRouter([
   {path:"/group/:groupid", element:<GroupPage />},
   {path:"/event/:eventid", element:<BodyEventSingle />},
   {path:"/share", element:<SharePage />},
-  {path:"/glossary", element:<BodyGlossary />}
+  {path:"/glossary", element:<BodyGlossary />},
+  {path:"/submitdata", element:<BodyFormSubmit />},
+  {path:"/about", element:<BodyAbout />}
 ]);
 
 

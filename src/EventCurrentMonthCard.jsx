@@ -23,8 +23,7 @@ function EventCurrentMonthCard(props){
     return( 
         <NavLink to={`/event/${props.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="event-poster-container">
-                <div 
-                    className="event-poster-full-card" 
+                <div className="event-poster-full-card" 
                     // style={{
                     //     backgroundImage: `url(${props.img})`,
                     //     backgroundSize: "contain",
@@ -41,10 +40,10 @@ function EventCurrentMonthCard(props){
                         <img src={props.img} />
                     </div>
                     <div className="event-info-poster-text">
-                            <strong className="event-info-name">{props.name}</strong>
-                            <div><strong>{props.city}</strong></div>
-                            <div><strong>{eventDatePhrased}</strong></div>
-                        </div>
+                        <strong className="event-info-name">{props.name}</strong>
+                        <div><strong>{props.city}</strong></div>
+                        <div><strong>{eventDatePhrased}</strong></div>
+                    </div>
                 </div>
             </div>
         </NavLink>
