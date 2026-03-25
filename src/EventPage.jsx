@@ -62,9 +62,11 @@ function EventPage(props){
                     <img src={eventData.img} alt="Event Poster" />
                 </div>
                 <h2>{eventData.name}</h2>
+                <div className="locationGenre">
                     <p><i className="fa-solid fa-calendar"></i> {eventDatePhrased}</p>
                     <p><i className="fa-solid fa-city"></i> {eventData.city}</p>
                     <p><i className="fa-solid fa-location-dot"></i> {eventData.address}</p>
+                </div>
             </div>
 
             <div className="column middle">

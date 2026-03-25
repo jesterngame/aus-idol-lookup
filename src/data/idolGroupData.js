@@ -28,7 +28,7 @@ export const idolGroupsArray = [
     {
         id:1,
         name:"Bloom Idol Project",
-        location:"Brisbane/Meanjin",
+        location:"Brisbane",
         logo: bloomlogo,
         genre: ["Jpop"], 
         description:`
@@ -58,7 +58,7 @@ export const idolGroupsArray = [
     {
         id:2,
         name:"SnackTime",
-        location:"Brisbane/Meanjin",
+        location:"Brisbane",
         logo: snacktimelogo,
         genre: ["Jpop", "Genki"], 
         description:`Yum yum! We are Snack Time Idols (スナックタイム) a Kaigai Jpop Idol Trio from Brisbane. We perform singing and dancing with songs from anime, to jpop, to Australian based idol groups. Come along to watch a delicious performance that’s high energy and full of heart from our 3 appetising idols.
@@ -84,7 +84,7 @@ export const idolGroupsArray = [
     {
         id:3,
         name:"Sunnysaurus",
-        location:"Sydney/Eora",
+        location:"Sydney",
         logo: sunnylogo,
         genre: ["Jpop", "Eurobeat", "EDM", "Rock"],
         description:`
@@ -118,7 +118,7 @@ export const idolGroupsArray = [
     {
         id:4,
         name:"Seiryou Process ☆ 星稜プロセス",
-        location:"Brisbane/Meanjin",
+        location:"Brisbane",
         logo: seiryouprocess_logo,
         genre: ["Jpop"],
         description:`
@@ -147,7 +147,7 @@ export const idolGroupsArray = [
     {
         id:5,
         name:"A-MUSE PROJECT",
-        location:"Brisbane/Meanjin",
+        location:"Brisbane",
         logo: amuse_logo,
         genre: ["Jpop"],
         description:`
@@ -188,7 +188,7 @@ export const idolGroupsArray = [
     {
         id:6,
         name:"Cassie-Sama",
-        location:"Brisbane/Meanjin",
+        location:"Brisbane",
         logo: templogo,
         genre: ["Eurobeat", "Rock", "Metal"],
         description:`
@@ -232,7 +232,7 @@ export const idolGroupsArray = [
     {
         id:7,
         name:"CH4i",
-        location:"Brisbane/Meanjin",
+        location:"Brisbane",
         logo: templogo,
         genre: ["Jpop"],
         description:`
@@ -263,7 +263,7 @@ export const idolGroupsArray = [
     {
         id: 8,
         name: "LoveChord",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: lovechordlogo,
         genre: [""],
         description:`A 4 member kaigai idol with a sweet, dark & energetic concept themed around the cycle of love!
@@ -295,7 +295,7 @@ export const idolGroupsArray = [
     {
         id: 9,
         name: "ReVeil",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: reveillogo,
         genre: [""],
         description:`An idol group based in Sydney/Eora, Australia! 
@@ -329,7 +329,7 @@ export const idolGroupsArray = [
     {
         id: 10,
         name: "Undead Online",
-        location: "Melbourne/Naarm",
+        location: "Melbourne",
         logo: undeadonlinelogo,
         genre: [""],
         description:`You can"t run and you can"t hide!! Formed in 2024, we are a Naarm, Australia based j-idol duo with an alternative monster concept. With our terrifyingly high energy and dedication we give performances that"ll keep you watching even if you"re frightened. From metal to spooky jpop, let"s raise enough energy to wake the dead!!!
@@ -357,7 +357,7 @@ export const idolGroupsArray = [
     {
         id: 11,
         name: "Sour Candy",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: sourcandylogo,
         genre: [""],
         description:`We are Sour Candy, a NSW, Australia based kaigai idol/idol cover group!
@@ -384,7 +384,7 @@ export const idolGroupsArray = [
     {
         id: 12,
         name: "ViVID",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: vividlogo,
         genre: [""],
         description:`We are VIVID!
@@ -417,7 +417,7 @@ export const idolGroupsArray = [
     {
         id: 13,
         name: "Naneko",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: templogo,
         genre: [""],
         description:`💖Lolita fashion💖
@@ -437,7 +437,7 @@ export const idolGroupsArray = [
     {
         id: 14,
         name: "NEONism",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: neonismlogo,
         genre: ["Rock", "EDM"],
         description:`Sydney rock & EDM idol group
@@ -457,7 +457,7 @@ export const idolGroupsArray = [
     {
         id: 15,
         name: "FAEBLE",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: faeblelogo,
         genre: [""],
         description:`FAEBLE are a high energy, singing and dancing idol group with a rock inspired sound based in Sydney, AUSTRALIA! With years of experience on stage and running idol events, FAEBLE’s passion is bringing fun and interactive stages to all.
@@ -491,7 +491,7 @@ export const idolGroupsArray = [
     {
         id: 16,
         name: "Part of Piece!",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: partofpiecelogo,
         genre: [""],
         description:`We are a J-pop idol group based in Sydney, Australia.
@@ -518,7 +518,7 @@ export const idolGroupsArray = [
     {
         id: 17,
         name: "DAV!NE",
-        location: "Melbourne/Naarm",
+        location: "Melbourne",
         logo: templogo,
         genre: [""],
         description:`ダバイン || 海外アイドル
@@ -548,7 +548,7 @@ export const idolGroupsArray = [
     {
         id: 18,
         name: "HiMizu",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: himizulogo,
         genre: [""],
         description:`HiMizu is a kaigai idol unit based in Eora/Sydney, Australia.
@@ -577,7 +577,7 @@ export const idolGroupsArray = [
     {
         id: 19,
         name: "Project Heart",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: projectheart_logo,
         genre: [""],
         description:`Project Heart is a Sydney based MenChika idol Project that made their stage debut in 2025.Tay, (Current member) the demon prince promises to win fans" hearts and bring them endless happiness. Their core message is that fans are their cherished ones, a special force held forever in their hearts. This concept is reflected in a strong visual style, skilfully blending elements of darkness and intensity with a passionate, unwavering theme of an idol"s profound and eternal commitment to their loyal Cherished Ones.
@@ -601,7 +601,7 @@ export const idolGroupsArray = [
         {
         id: 20,
         name: 'Universal Makeup',
-        location: 'Melbourne/Naarm',
+        location: "Melbourne",
         logo: unmei_logo,
         genre: [""],
         description:`うんめい ☆ Universal Makeup!!
@@ -619,7 +619,7 @@ export const idolGroupsArray = [
     {
         id: 21,
         name: 'Hibiskiss',
-        location: 'Melbourne/Naarm',
+        location: "Melbourne",
         logo: hibiskiss_logo,
         genre: [''],
         description:``,
@@ -637,7 +637,7 @@ export const idolGroupsArray = [
     {
         id: 22,
         name: 'Starry Dance',
-        location: 'Melbourne/Naarm',
+        location: "Melbourne",
         logo: starrydance_logo,
         genre: [''],
         description:`Just a bunch of girls chasing that glow ✨
@@ -660,7 +660,7 @@ export const idolGroupsArray = [
     {
         id: 23,
         name: 'LuMeteor',
-        location: 'Melbourne/Naarm',
+        location: "Melbourne",
         logo: lumeteor_logo,
         genre: [''],
         description:`We are a Melbourne-based Kaigai IdolGroup!
@@ -688,7 +688,7 @@ export const idolGroupsArray = [
     {
         id: 24,
         name: 'Aquatic Memories',
-        location: 'Melbourne/Naarm',
+        location: "Melbourne",
         logo: aquaticmemories_logo,
         genre: [''],
         description:``,
@@ -702,7 +702,7 @@ export const idolGroupsArray = [
     {
         id: 25,
         name: "Moe Magic Maids",
-        location: "Brisbane/Meanjin",
+        location: "Brisbane",
         logo: moemagicmaids_logo,
         genre: [""],
         description:`Welcome Home Princesses, Masters!
@@ -738,7 +738,7 @@ export const idolGroupsArray = [
         {
         id: 26,
         name: "De:Fi",
-        location: "Brisbane/Meanjin",
+        location: "Brisbane",
         logo: defi_logo,
         genre: ["Jpop"],
         description:`We are De:Fi! A pink and blue brisbane-based idol duo 💙💕
@@ -762,7 +762,7 @@ export const idolGroupsArray = [
     {
         id: 27,
         name: "Constellation",
-        location: "Brisbane/Meanjin",
+        location: "Brisbane",
         logo: constellation_logo,
         genre: ["Jpop"],
         description:`Established in 2017 as a Love Live! Idol group, Constellation are a Brisbane based kaigai idol and dance group who love to share their passion and energy on stage for all things J-idol!
@@ -790,7 +790,7 @@ export const idolGroupsArray = [
     {
         id: 28,
         name: "Yume☆Hoshi",
-        location: "Brisbane/Meanjin",
+        location: "Brisbane",
         logo: yumehoshi_logo,
         genre: ["Jpop"],
         description:`『夢にキラめく、お星さまアイドル』
@@ -810,7 +810,7 @@ export const idolGroupsArray = [
         {
         id: 29,
         name: "Coda",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: templogo,
         genre: [""],
         description:`CODA the UNDEAD is an overseas idol, risen from the grounds of Sydney, Australia.
@@ -848,7 +848,7 @@ export const idolGroupsArray = [
     {
         id: 30,
         name: "Wooly",
-        location: "Sydney/Eora",
+        location: "Sydney",
         logo: templogo,
         genre: [""],
         description:`A solo idol based in Australia!

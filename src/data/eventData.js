@@ -24,7 +24,7 @@ export const eventsArray = [
         id:1,
         name: "TBA Snacktime Event",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Queen Street Mall",
         description: `TBA Snacktime Event`,
         img: temp_event_show,
@@ -36,7 +36,7 @@ export const eventsArray = [
         id:2,
         name: "animaga Sunday",
         type: "con",
-        city: "Sydney/Eora",
+        city: "Sydney",
         address: "ICC Sydney",
         description: `Mark your calendars! Animaga is coming to ICC Sydney on 14–15 March 2026, bringing two unforgettable days packed with anime, fandom, and excitement. For the very first time, Animaga is setting the stage in Sydney, and we're ready to make it an event to remember.`,
         ticketlink: "http://instagram.com/animagaexpo",
@@ -48,7 +48,7 @@ export const eventsArray = [
         id:3,
         name: "Full Throttle Idol Relay Live",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Hamilton Town Hall",
         description: `VIP DOORS OPEN: 5:00PM
                 
@@ -83,7 +83,7 @@ export const eventsArray = [
         id:4,
         name: "animaga Saturday",
         type: "con",
-        city: "Sydney/Eora",
+        city: "Sydney",
         address: "ICC Sydney",
         description: `Mark your calendars! Animaga is coming to ICC Sydney on 14–15 March 2026, bringing two unforgettable days packed with anime, fandom, and excitement. For the very first time, Animaga is setting the stage in Sydney, and we're ready to make it an event to remember.`,
         ticketlink: "http://instagram.com/animagaexpo",
@@ -109,7 +109,7 @@ export const eventsArray = [
         id: 5,
         name: "DOUBLE FOOL - Gachi of Piece! + NEON LOUNGE",
         type: "live",
-        city: "Sydney/Eora",
+        city: "Sydney",
         address: "ESCAC by BRAND X",
         description: `A gathering to commemorate something...? Why are they run at the same time? A Lounge and Otaku ofukai? 
 
@@ -144,7 +144,7 @@ export const eventsArray = [
         id: 6,
         name: "極致ピエロ: THE PROPRO SHOW",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "PIP Theatre",
         description: `Welcome one and all to Seiryou Process’s end of Sad Clown era live: Kyokuchi Pierro. Join us and supporting act Amuse Project in a unique, high-energy dark-circus themed kaigai idol live to celebrate music, creativity, and all things clown. Hold onto your sanity; our circus only has one more stop before the end of the road. Get a taste of what comes next.`,
         ticketlink: "https://piptheatre.org/%E6%A5%B5%E8%87%B4%E3%83%94%E3%82%A8%E3%83%AD-the-propro-show/",
@@ -159,7 +159,7 @@ export const eventsArray = [
         id: 7,
         name: "AniMayhem 2026 Saturday",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Brisbane Convention and Exhibition Centre",
         description: `AniMayhem is Brisbane’s newest anime and pop culture convention, debuting in May 2026. Set to attract thousands of anime lovers, cosplayers, collectors, and pop culture fans. This immersive two-day event offers a platform for brands to engage directly with Australia’s vibrant otaku community.`,
         ticketlink: "https://expertiseevents.eventsair.com/animayhem-2026/animayhemtix26/Site/Register",
@@ -173,7 +173,7 @@ export const eventsArray = [
         id: 8,
         name: "Unknown Event",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "",
         description: ``,
         ticketlink: "",
@@ -187,7 +187,7 @@ export const eventsArray = [
         id: 9,
         name: "AniMayhem 2026 Sunday",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Brisbane Convention and Exhibition Centre",
         description: `AniMayhem is Brisbane’s newest anime and pop culture convention, debuting in May 2026. Set to attract thousands of anime lovers, cosplayers, collectors, and pop culture fans. This immersive two-day event offers a platform for brands to engage directly with Australia’s vibrant otaku community.`,
         ticketlink: "https://expertiseevents.eventsair.com/animayhem-2026/animayhemtix26/Site/Register",
@@ -201,7 +201,7 @@ export const eventsArray = [
         id: 10,
         name: "Shiro Stage",
         type: "live",
-        city: "Melbourne/Naarm",
+        city: "Melbourne",
         address: "Richmond Theatrette",
         description: `Overview
 
@@ -233,7 +233,7 @@ export const eventsArray = [
         id: 11,
         name: "AniRock Fes Melbourne",
         type: "live",
-        city: "Melbourne/Naarm",
+        city: "Melbourne",
         address: "Stay Gold",
         description: `Get ready for a night dedicated entirely to J-Rock, J-Pop, and iconic anime music!
 
@@ -265,7 +265,7 @@ export const eventsArray = [
         id: 12,
         name: "Ready, Set, Re:Start!",
         type: "live",
-        city: "Sydney/Eora",
+        city: "Sydney",
         address: "Red Rattler Theatre",
         description: `READY. SET! RE:START 💜 — Azusa Graduation Live
 
@@ -285,7 +285,7 @@ export const eventsArray = [
         id: 13,
         name: "Idolscope IV - 深海の中へ",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Hamilton Town Hall",
         description: ``,
         ticketlink: "https://www.instagram.com/idolscope.au/",
@@ -297,7 +297,7 @@ export const eventsArray = [
         id: 14,
         name: "Evernight Ball",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Grange Community Hall",
         description: `⭐️✨🌌🪩
 
@@ -319,7 +319,7 @@ export const eventsArray = [
         id: 15,
         name: "Maid with Magic Live",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Hamilton Town Hall",
         description: `Please join us for our first ever birthday live event with guest maids, Bloom Idol Project!! It'll be a night full of moe & magical spells to keep the night alive~
 
@@ -342,7 +342,7 @@ export const eventsArray = [
         id: 16,
         name: "Baywave Youth Festival!",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Lota Skatepark, Lota",
         description: `Baywave Youth Festival!
 
@@ -358,7 +358,7 @@ export const eventsArray = [
         id: 17,
         name: "Oishii Party  おいしい パーティー",
         type: "taiban",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "Kurilpa Hall, 174 Boundary St, West End QLD 4101",
         description: `Ready your plates for delicious performance from Idols in Meanjin (Brisbane). SnackTime presents our Taiban event 'おいしい パーティー' with special help from Constellation. This event will include four ~15 minute performances from four idol groups and buppan merch sales. Join us on April 25th, 5:30pm - 8pm, Kurilpa Hall West End.`,
         img: event_17_poster,
@@ -375,7 +375,7 @@ export const eventsArray = [
         id: 18,
         name: "Oshi Mart 2",
         type: "live",
-        city: "Perth/Boorloo",
+        city: "Perth",
         address: "Moonchunk Gacha and Claw",
         description: `Ever wondered how idol fans know to chant and cheer in sync? Or how the audience coordinates their penlights seamlessly to each song? Now is your chance to learn!
 
@@ -395,7 +395,7 @@ export const eventsArray = [
         id: 19,
         name: "Yume No Chu!",
         type: "live",
-        city: "Perth/Boorloo",
+        city: "Perth",
         address: "The Jonesway Theatre",
         description: `iDol Mic Night presents their second JPOP IDOL TAIBAN: Yume No Chu!
         Enter the dreamy stage and cheer on your favourite stars as they perform Japanese idol, jpop and anisong faves!`,
@@ -408,7 +408,7 @@ export const eventsArray = [
         id: 20,
         name: "IDOLKURA 11",
         type: "live",
-        city: "Sydney/Eora",
+        city: "Sydney",
         address: "Rouge Bar Sydney",
         description: `We"re bringing back IDOLKURA! Come share a drink, dance to a night of J-Idol, Anikura, J-Core! 
         With DJ INVOKER & CODA making their IDOLKURA DEBUT!`,
@@ -426,7 +426,7 @@ export const eventsArray = [
         id: 21,
         name: "Deakin Idol Fest",
         type: "live",
-        city: "Melbourne/Naarm",
+        city: "Melbourne",
         address: "Deakin University Burwood",
         description: `Our mid trimester celebration is here! If you’re a fan of J-pop or K-pop, come have fun with us on the last day of uni before the Easter break. The evening will be full of idol performances, and related craft activities and games.`,
         ticketlink: "https://www.instagram.com/p/DVx1RvXE727/",
@@ -438,7 +438,7 @@ export const eventsArray = [
         id: 22,
         name: "Charm's Picnic Party",
         type: "live",
-        city: "Melbourne/Naarm",
+        city: "Melbourne",
         address: "Flagstaff Gardens",
         description: `It's a party, and you"re invited!!🌺
 
@@ -454,7 +454,7 @@ export const eventsArray = [
         id: 23,
         name: "INTERSTELLAR",
         type: "live",
-        city: "Brisbane/Meanjin",
+        city: "Brisbane",
         address: "E-Space",
         description: `Multiverse AU proudly presents Interstellar, our very first event!—where idols and creators collide across worlds.
 
@@ -473,7 +473,7 @@ export const eventsArray = [
         id: 24,
         name: "We are HiMizu!",
         type: "live",
-        city: "Sydney/Eora",
+        city: "Sydney",
         address: "ESCAC by Brand X",
         description: `HiMizu"s 1st One Man - We are HiMizu!
 

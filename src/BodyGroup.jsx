@@ -46,9 +46,9 @@ function BodyGroup(){
                 className="filterSelecter"
             >
                 <option value="all">All</option>
-                <option value="Brisbane/Meanjin">Brisbane/Meanjin</option>
-                <option value="Melbourne/Naarm">Melbourne/Naarm</option>
-                <option value="Sydney/Eora">Sydney/Eora</option>
+                <option value="Brisbane">Brisbane</option>
+                <option value="Melbourne">Melbourne</option>
+                <option value="Sydney">Sydney</option>
             </select>
             
             <div className="filterSelectGenre">

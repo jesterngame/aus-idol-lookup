@@ -17,9 +17,13 @@ function IdolGroupShortEventDisplay(props){
 
     if(props.mtime != ''){
         timeM = formatTime(props.mtime);
+    } else {
+        timeM = "N/A";
     }
     if(props.btime != ''){
         timeB = formatTime(props.btime);
+    } else {
+        timeB = "N/A";
     }
 
     return(

@@ -22,10 +22,10 @@ function BodyCalendar(){
                 className="filterSelecter"
             >
                 <option value="all">All</option>
-                <option value="Brisbane/Meanjin">Brisbane/Meanjin</option>
-                <option value="Melbourne/Naarm">Melbourne/Naarm</option>
-                <option value="Sydney/Eora">Sydney/Eora</option>
-                <option value="Perth/Boorloo">Perth/Boorloo</option>
+                <option value="Brisbane">Brisbane</option>
+                <option value="Melbourne">Melbourne</option>
+                <option value="Sydney">Sydney</option>
+                <option value="Perth">Perth</option>
             </select>
         </div>
         <div className="main-body-filter">
