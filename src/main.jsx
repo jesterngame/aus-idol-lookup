@@ -12,6 +12,7 @@ import SharePage from './SharePage.jsx'
 import BodyGlossary from './BodyGlossary.jsx'
 import BodyFormSubmit from './BodyFormSubmit.jsx'
 import BodyAbout from './BodyAbout.jsx'
+import Footer from './Footer.jsx'
 
 const router = createHashRouter([
   {path:"", element:<BodyEvent /> },
@@ -34,6 +35,7 @@ createRoot(document.getElementById('root')).render(
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"></link>
         </div>
         <RouterProvider router={router} />
+        <Footer />
       </div>
   </StrictMode>,
 )

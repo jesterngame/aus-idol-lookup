@@ -502,18 +502,6 @@ export const idolsArray = [
             {
                 type: "twitter",
                 link: "https://twitter.com/undeadcoda"
-            },
-            {
-                type: "website",
-                link: "https://www.codatheundead.net/"
-            },
-            {
-                type: "youtube",
-                link: "https://www.youtube.com/@coda_the_undead"
-            },
-            {
-                type: "twitch",
-                link: "https://twitch.tv/undeadcoda"
             }
         ]
     },

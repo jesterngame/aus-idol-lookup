@@ -34,10 +34,12 @@ function EventCurrentMonthCard(props){
                     //     marginTop: "20px"
                     // }}
                 >
-                    <div className="event-poster-image" style={{
+                    <div className="event-poster-image">
+                        <div className="event-poster-image-postercon" style={{
                             aspectRatio: `${eventPosterImg.naturalWidth} / ${eventPosterImg.naturalHeight}`
                         }}>
                         <img src={props.img} />
+                        </div>
                     </div>
                     <div className="event-info-poster-text">
                         <strong className="event-info-name">{props.name}</strong>

@@ -2,7 +2,9 @@
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} Your website name</p>
+            <p>Aus Idol Fest</p>
+            <a href="https://www.instagram.com/ausidolfest/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+            <p>&copy; {new Date().getFullYear()} Aus Idol Lookup</p>
         </footer>
     );
 }

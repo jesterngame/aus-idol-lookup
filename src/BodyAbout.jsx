@@ -20,6 +20,9 @@ function BodyAbout(){
                     <p><strong>Penlight:</strong> An LED lightstick. Every idol has their own representative colour - when they're on stage, change your penlight to match your favourite's!</p>
                     <p><strong>Wota:</strong> Derived from the word "otaku" - a dedicated idol fan.</p>
                 </div>
+
+                <h3>Credits</h3>
+               <i>Icons by Font Awesome (https://fontawesome.com), licensed under CC BY 4.0.</i>
             </div>
         </div>
         
