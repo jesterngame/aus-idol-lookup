@@ -332,7 +332,7 @@ export const idolGroupsArray = [
         location: "Melbourne",
         logo: undeadonlinelogo,
         genre: [""],
-        description:`You can"t run and you can"t hide!! Formed in 2024, we are a Naarm, Australia based j-idol duo with an alternative monster concept. With our terrifyingly high energy and dedication we give performances that"ll keep you watching even if you"re frightened. From metal to spooky jpop, let"s raise enough energy to wake the dead!!!
+        description:`You can't run and you can't hide!! Formed in 2024, we are a Naarm, Australia based j-idol duo with an alternative monster concept. With our terrifyingly high energy and dedication we give performances that'll keep you watching even if you're frightened. From metal to spooky jpop, let's raise enough energy to wake the dead!!!
         
         From Website 13/3/26`,
         socials: [
@@ -580,7 +580,7 @@ export const idolGroupsArray = [
         location: "Sydney",
         logo: projectheart_logo,
         genre: [""],
-        description:`Project Heart is a Sydney based MenChika idol Project that made their stage debut in 2025.Tay, (Current member) the demon prince promises to win fans" hearts and bring them endless happiness. Their core message is that fans are their cherished ones, a special force held forever in their hearts. This concept is reflected in a strong visual style, skilfully blending elements of darkness and intensity with a passionate, unwavering theme of an idol"s profound and eternal commitment to their loyal Cherished Ones.
+        description:`Project Heart is a Sydney based MenChika idol Project that made their stage debut in 2025.Tay, (Current member) the demon prince promises to win fans' hearts and bring them endless happiness. Their core message is that fans are their cherished ones, a special force held forever in their hearts. This concept is reflected in a strong visual style, skilfully blending elements of darkness and intensity with a passionate, unwavering theme of an idol's profound and eternal commitment to their loyal Cherished Ones.
         
         From carrd 13/3/26`,
         socials: [

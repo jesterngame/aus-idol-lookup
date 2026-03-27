@@ -86,7 +86,7 @@ const Calendar = ({ events = [] }) => {
                 <div className="calEvents">
                     {/* updatePageEventSingle(event.id) */}
                 {dayEvents.map(event => (
-                    <NavLink to={`/event/${event.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                    <NavLink key={event.id} to={`/event/${event.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div key={event.id} className="calEvent">
                             {event.name}
                         </div>

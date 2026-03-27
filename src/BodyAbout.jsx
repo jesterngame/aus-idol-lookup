@@ -6,8 +6,9 @@ function BodyAbout(){
         <div className="main-body">
             <div className="glossary-container">
                 <h1>About</h1>
-                <p>Created in 2026 by the team behind Aus Idol Fest, Aus Idol Lookup is your one stop shop to keep up to date with idols. With a calendar of upcoming events from around the country and information on the multitude of local idol groups and soloists, our goal is to serve as a central repository for idol fans in Australia.</p>
-
+                <div className="glossary-container-info">
+                    <p>Created in 2026 by the team behind Aus Idol Fest, Aus Idol Lookup is your one stop shop to keep up to date with idols. With a calendar of upcoming events from around the country and information on the multitude of local idol groups and soloists, our goal is to serve as a central repository for idol fans in Australia.</p>
+                </div>
                 <h1>Glossary:</h1>
                 <div className="glossary-container-info">
                     <p><strong>Buppan / tokutenkai:</strong> A period of time either before or after the show to purchase merchandise, take chekis, and talk with the idols.</p>

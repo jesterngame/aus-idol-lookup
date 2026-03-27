@@ -52,10 +52,12 @@ function IdolGroupPage(props){
                     {listSocials}
                 </div>
                 <h2>About</h2>
-                <p style={{ whiteSpace: "pre-line" }}>{groupData.description}</p>
+                <div className="groupAbout">
+                    <p style={{ whiteSpace: "pre-line" }}>{groupData.description}</p>
+                </div>
             </div>
 
-            <div className="column middle">
+            <div className="group-page-content">
                 <div className="event">
                     <h2>Upcoming Events</h2>
                     <Swiper
@@ -104,9 +106,6 @@ function IdolGroupPage(props){
                     </Swiper>
                 </div>
 
-            </div>
-
-            <div className="column right">
             </div>
         </div>
     );

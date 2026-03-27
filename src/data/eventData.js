@@ -22,28 +22,28 @@ import event_24_poster from '../assets/posters/event_24_poster.webp'
 export const eventsArray = [
     {
         id:1,
-        name: "TBA Snacktime Event",
+        name: "Brisbane Youth Week",
         type: "live",
         city: "Brisbane",
-        address: "Queen Street Mall",
-        description: `TBA Snacktime Event`,
+        address: "Queen Street Mall Stage",
+        description: `Brisbane Youth Week`,
         img: temp_event_show,
         ticketlink: "",
         groups: [{ id: 2, mtime: "", btime: "" }],
         date: new Date(2026, 3, 13) // year, month (0-11), day
     },
-    {
-        id:2,
-        name: "animaga Sunday",
-        type: "con",
-        city: "Sydney",
-        address: "ICC Sydney",
-        description: `Mark your calendars! Animaga is coming to ICC Sydney on 14–15 March 2026, bringing two unforgettable days packed with anime, fandom, and excitement. For the very first time, Animaga is setting the stage in Sydney, and we're ready to make it an event to remember.`,
-        ticketlink: "http://instagram.com/animagaexpo",
-        img: animaga_2026_sydney,
-        groups: [{ id: 3, mtime: "", btime: "" }],
-        date: new Date(2026, 2, 15) // year, month (0-11), day
-    },
+    // {
+    //     id:2,
+    //     name: "animaga Sunday",
+    //     type: "con",
+    //     city: "Sydney",
+    //     address: "ICC Sydney",
+    //     description: `Mark your calendars! Animaga is coming to ICC Sydney on 14–15 March 2026, bringing two unforgettable days packed with anime, fandom, and excitement. For the very first time, Animaga is setting the stage in Sydney, and we're ready to make it an event to remember.`,
+    //     ticketlink: "http://instagram.com/animagaexpo",
+    //     img: animaga_2026_sydney,
+    //     groups: [{ id: 3, mtime: "", btime: "" }],
+    //     date: new Date(2026, 2, 15) // year, month (0-11), day
+    // },
     {
         id:3,
         name: "Full Throttle Idol Relay Live",
@@ -115,7 +115,7 @@ export const eventsArray = [
 
 
         Gachi of Piece! 
-        Otaku! Wota! Let's have an ofukai together where we celebrate our favourite idols! Let's go all out and call! Bring your badges (wait do we have any?), Penlights, and uryaoi! Cheki-meishi, kagishime, cause world chaos and show your oshi who"s the true top wota. Wear your favourite Idol group"s merch and get something from us.
+        Otaku! Wota! Let's have an ofukai together where we celebrate our favourite idols! Let's go all out and call! Bring your badges (wait do we have any?), Penlights, and uryaoi! Cheki-meishi, kagishime, cause world chaos and show your oshi who's the true top wota. Wear your favourite Idol group's merch and get something from us.
 
         今日の最前管理
 
@@ -475,7 +475,7 @@ export const eventsArray = [
         type: "live",
         city: "Sydney",
         address: "ESCAC by Brand X",
-        description: `HiMizu"s 1st One Man - We are HiMizu!
+        description: `HiMizu's 1st One Man - We are HiMizu!
 
         Details:
 

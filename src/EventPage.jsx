@@ -69,7 +69,7 @@ function EventPage(props){
                 </div>
             </div>
 
-            <div className="column middle">
+            <div className="event-page-body">
                 <h2>Groups</h2>
                 <div className="idol-group-members">
                     <Swiper
@@ -86,9 +86,7 @@ function EventPage(props){
                     </Swiper>
                 </div>
 
-            </div>
 
-            <div className="column right">
                 <h2>About</h2>
                 <p style={{ whiteSpace: "pre-line" }}>{eventData.description}</p>
 

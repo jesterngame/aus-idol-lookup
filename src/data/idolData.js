@@ -5,7 +5,7 @@ export const idolsArray = [
         name: "Bella",
         image: "imgs/temp_portrait.png",
         idoltype: "",
-        colour: "Pink",
+        colour: "Princess Pink",
         socials: [
             {
                 type: "instagram",
@@ -23,7 +23,7 @@ export const idolsArray = [
         name: "Mei",
         image: "imgs/temp_portrait.png",
         idoltype: "",
-        colour: "Green",
+        colour: "Lucky green",
         socials: [
             {
                 type: "instagram",
@@ -41,7 +41,7 @@ export const idolsArray = [
         name: "Misty",
         image: "imgs/temp_portrait.png",
         idoltype: "",
-        colour: "Blue",
+        colour: "Magical blue",
         socials: [
             {
                 type: "instagram",
