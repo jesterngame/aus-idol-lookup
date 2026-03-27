@@ -230,9 +230,10 @@ body {
 }
 
 .main-body {
-  padding: 10px;
+  padding: 10p
   margin-top: 60px;
   background-color: #fafafa;
+  min-height: 500px;
 }
 
 .main-body-filter {
